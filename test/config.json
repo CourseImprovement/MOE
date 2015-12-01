@@ -1,0 +1,17 @@
+{
+	"config": {
+		"makeDocs": true,
+		"forceReview": true
+	},
+	"name": "ims",
+	"author": "chase",
+	"js": {
+		"include": {
+			"../bin/math.js": [
+				"math.sum"
+			]
+		},
+		"extend": {},
+		"create": {}
+	}
+}

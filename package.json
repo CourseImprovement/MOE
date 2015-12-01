@@ -1,0 +1,34 @@
+{
+  "name": "moe",
+  "version": "0.1.0",
+  "description": "Maintainable, Organized and Efficient",
+  "main": "index.js",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "prompt": "^0.2.14"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CourseImprovement/MOE.git"
+  },
+  "keywords": [
+    "Maintainable",
+    "Organized",
+    "Efficient"
+  ],
+  "author": "Chase Willden, Grant Sheridan",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/CourseImprovement/MOE/issues"
+  },
+  "bin": {
+    "moe": "index.js"
+  },
+  "homepage": "https://github.com/CourseImprovement/MOE"
+}
