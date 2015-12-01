@@ -15,6 +15,7 @@ function executeScript(path, args){
 			'-----------------------------------------------------------\n' + 
 			'Usage\n\n' + 
 			'moe init\tCreates the new JSON (config) file\n' + 
+			'moe refresh\tReloads all the included and extended files\n' + 
 			'moe js\t\tRun the JavaScript segment based on the config\n' +
 			'\n\nInstructions\n' + 
 			'-----------------------------------------------------------\n' + 
@@ -34,6 +35,7 @@ function executeScript(path, args){
 		switch (cmd){
 			case 'init': executeScript('./src/init.js', args); break;
 			case 'js': executeScript('./src/js.js', args); break;
+			case 'refresh': executeScript('./src/refresh.js', args); break;
 		}
 	}
 

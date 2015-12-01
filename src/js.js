@@ -1,8 +1,32 @@
 var fs = require('fs');
+var path = require("path");
 var vm = require('vm');
 
 function js(){
 	this.args = null;
+}
+
+js.prototype.refresh = function(){
+	this.config = getConfig();
+	var paths = Object.keys(this.config.js.include);
+	for (var i = 0; i < paths.length; i++){
+		var path = paths[i];
+		var fileName = path.split('/');
+		fileName = fileName[fileName.length - 1];
+		var ext = fileName.split('.')[1];
+		fileName = fileName.split('.')[0];
+
+		// make the include folder
+		try{
+			fs.readdirSync('src/' + fileName);
+		}
+		catch (e){
+			fs.mkdirSync('src/' + fileName);
+		}
+
+		fs.writeFileSync('src/' + fileName + '/include.js', this.readFileIncludes(path));
+	}
+	this.saveConfig();
 }
 
 function getConfig(){
@@ -20,6 +44,25 @@ function getConfig(){
 	return str;
 }
 
+var rmdir = function(dir) {
+	var list = fs.readdirSync(dir);
+	for(var i = 0; i < list.length; i++) {
+		var filename = path.join(dir, list[i]);
+		var stat = fs.statSync(filename);
+		
+		if(filename == "." || filename == "..") {
+			// pass these files
+		} else if(stat.isDirectory()) {
+			// rmdir recursively
+			rmdir(filename);
+		} else {
+			// rm fiilename
+			fs.unlinkSync(filename);
+		}
+	}
+	fs.rmdirSync(dir);
+};
+
 function error(msg){
 	console.log('\nerror: ' + msg + '\n');
 	process.exit();
@@ -31,7 +74,8 @@ function help(){
 		'moe (C) BYU-Idaho\n' +
 		'-----------------------------------------------------------\n' + 
 		'Usage\n\n' + 
-		'moe js include [path] [variableName | functionName() | *]\n'
+		'moe js include [path] [variableName | functionName() | *]\n' + 
+		'moe js remove [path] [variableName]\n'
 	);
 }
 
@@ -45,9 +89,32 @@ js.prototype.run = function(args){
 		args.splice(0, 1);
 		switch (cmd){
 			case 'include': this.include(); break;
+			case 'remove': this.remove(); break;
 		}
 	}
 }
+
+js.prototype.remove = function(){
+	if (this.args.length < 1) {
+		help();
+		error('Invalid arguments');
+	}
+	this.config = getConfig();
+	var path = this.args[0];
+	this.args.splice(0, 1);
+	if (this.args.length > 0){ // remove module
+
+	}
+	else{
+		var fileName = path.split('/');
+		fileName = fileName[fileName.length - 1];
+		var ext = fileName.split('.')[1];
+		fileName = fileName.split('.')[0];
+		rmdir('src/' + fileName);
+		delete this.config.js.include[path];
+		this.saveConfig();
+	}
+};
 
 js.prototype.include = function(){
 	if (this.args.length < 1) {
@@ -99,22 +166,24 @@ js.prototype.readFileIncludes = function(path){
 	var js = '';
 	var file = fs.readFileSync(path);
 
-	var sandbox = {};
-	var context = new vm.createContext(sandbox);
-	var script = new vm.Script(file);
+	// var sandbox = {};
+	// var context = new vm.createContext(sandbox);
+	// var script = new vm.Script(file);
 
-	for (var i = 0; i < 10; ++i) {
-	  script.runInContext(context);
-	}
+	// for (var i = 0; i < 10; ++i) {
+	//   script.runInContext(context);
+	// }
 
 	if (includes[0] == '*') return file;
-	else{
-		for (var i = 0;i < includes.length; i++){
-			js += this.stringify(sandbox, includes[i]);
-		}
-		return js;
-	}
+	// else{
+	// 	for (var i = 0;i < includes.length; i++){
+	// 		js += this.stringify(sandbox, includes[i]);
+	// 	}
+	// 	return js;
+	// }
+	return file;
 }
+
 
 js.prototype.stringify = function(sandbox, include){
 	var path = [];

@@ -4,11 +4,11 @@
 		"forceReview": true
 	},
 	"name": "ims",
-	"author": "chase",
+	"author": "Chase and Grant",
 	"js": {
 		"include": {
-			"../bin/math.js": [
-				"math.sum"
+			"../bin/person.js": [
+				"*"
 			]
 		},
 		"extend": {},
