@@ -20,8 +20,6 @@ function executeScript(path, args){
 			'moe (C) BYU-Idaho\n' +
 			'-----------------------------------------------------------\n' + 
 			'Usage\n\n' + 
-			'moe todo\tDisplay all the todo items\n' + 
-			'moe project\tDisplay help for the projects' + 
 			'\n'
 		);
 	}

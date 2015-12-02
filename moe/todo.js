@@ -10,10 +10,23 @@ function help(){
 		'Usage\n\n' + 
 		'moe todo\t\tDisplay all the todo items\n' + 
 		'moe todo [name]\t\tShow only tasks assigned to the name\n' +
-		'moe todo status\t\tShow the overall and user progress\n' + 
+		'moe todo status\t\tShow the overall and user progress\n\n' + 
 		'moe todo --mute\t\tMute the uncommented functions\n' + 
 		'moe todo --names\tDisplay the names assigned to the task\n' +
 		'moe todo --show\t\tShow the different tasks for the files\n' + 
+		'moe todo --func\t\tShow the function where the task is located\n' +
+		'\nGuide\n-----------------------------------------------------------\n' +
+		':)\t\t\tPeer reviewed\n' +
+		':(\t\t\tNot peer reviewed\n' +
+		'!\t\t\tNo comments found\n' +
+		'\nExample Comments\n-----------------------------------------------------------\n' + 
+		'/**\n' +
+		'* @assign Chase\n' +
+		'* @reviewedBy Grant\n' +
+		'* @todo\n' + 
+		'*   - Not Complete\n' +
+		'*   + Complete\n' +
+		'*/\n' +
 		'\n'
 	);
 	process.exit();
@@ -27,6 +40,7 @@ function Todo(){
 	this.filter = false;
 	this.name = '';
 	this.status = false;
+	this.func = false;
 }
 
 Todo.prototype.run = function(args){
@@ -99,30 +113,50 @@ Todo.prototype.getAllTodos = function(){
 			else{
 				log += '  ';
 			}
+			if (this.todos[i].reviewed){
+				log += ':)'.green;
+			}
+			else{
+				log += ':('.red;
+			}
+			log += ' - ';
 
 			log += this.todos[i].path + ' ';
 			if (this.show && this.names){
 				log += ' (' + this.todos[i].assigned + ')';
 			}
+			if (this.func && this.show && this.todos[i].name != ''){
+				log += '\n\t' + this.todos[i].name.blue + ':';
+			}
 			for (var j = 0; j < this.todos[i].complete.length; j++){
-				if (this.show){
-					log += '\n\t+'.green + ' ' + this.todos[i].complete[j];
+				if (this.func && this.show && this.todos[i].name != ''){
+					log += '\n\t\t+'.green + ' ' + this.todos[i].complete[j];
 				}
 				else{
-					log += '+'.green;
+					if (this.show){
+						log += '\n\t+'.green + ' ' + this.todos[i].complete[j];
+					}
+					else{
+						log += '+'.green;
+					}
 				}
 			}
 			for (var j = 0; j < this.todos[i].notComplete.length; j++){
-				if (this.show){
-					log += '\n\t-'.red + ' ' + this.todos[i].notComplete[j];
+				if (this.func && this.show && this.todos[i].name != ''){
+					log += '\n\t\t-'.red + ' ' + this.todos[i].notComplete[j];
 				}
 				else{
-					log += '-'.red;
+					if (this.show){
+						log += '\n\t-'.red + ' ' + this.todos[i].notComplete[j];
+					}
+					else{
+						log += '-'.red;
+					}
 				}
 			}
 
 			if (this.names && !this.show){
-				log += ' \t\t(' + this.todos[i].assigned + ')';
+				log += '\t\t(' + this.todos[i].assigned + ')';
 			}
 
 			console.log(log);
@@ -136,6 +170,15 @@ Todo.prototype.getAllTodos = function(){
 			else{
 				log += '  ';
 			}
+			if (this.todos[i].reviewed){
+				log += ':)'.green;
+			}
+			else{
+				log += ':('.red;
+			}
+
+			log += ' - ';
+
 			if (this.names){
 				log += ' (' + this.todos[i].assigned + ')';
 			}
@@ -157,7 +200,9 @@ Todo.prototype.checkTodos = function(pth){
 		notComplete: [],
 		path: pth.split('projects')[1],
 		foundNoComment: false,
-		assigned: ''
+		assigned: '',
+		reviewed: false,
+		name: ''
 	};
 	for (var i = 0; i < lines.length; i++){
 		if (comment){
@@ -168,6 +213,13 @@ Todo.prototype.checkTodos = function(pth){
 			else if (lines[i].indexOf('@assign') > -1){
 				var name = lines[i].split('@assign')[1].trim();
 				components.assigned = name;
+			}
+			else if (lines[i].indexOf('@reviewedBy') > -1){
+				components.reviewed = true;
+			}
+			else if (lines[i].indexOf('@name') > -1){
+				var name = lines[i].split("@name")[1].trim();
+				components.name = name;
 			}
 			if (todo){
 				var first = lines[i].replace(/\*/g, '').trim()[0];
@@ -220,7 +272,8 @@ Todo.prototype.getAllFiles = function(dir){
 		var stat = fs.statSync(filename);
 
 		if (filename == '.' || filename == '..') {}
-		else if (stat.isDirectory() && filename.indexOf('node_modules') == -1){
+		else if (stat.isDirectory()){
+			if (filename.indexOf('node_modules') > -1 && filename.indexOf('build') > -1) continue;
 			var ary = this.getAllFiles(filename);
 			result = result.concat(ary);
 		}
@@ -250,6 +303,10 @@ Todo.prototype.setFlags = function(){
 				}
 				case 'show': {
 					this.show = true;
+					break;
+				}
+				case 'func': {
+					this.func = true;
 					break;
 				}
 				default: {
