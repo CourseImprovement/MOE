@@ -1,0 +1,9 @@
+[submodule "projects/ims"]
+	path = projects/ims
+	url = https://github.com/courseimprovement/ims
+[submodule "projects/byui.js"]
+	path = projects/byui.js
+	url = https://github.com/courseimprovement/byui.js
+[submodule "projects/duedateadjustment"]
+	path = projects/duedateadjustment
+	url = https://github.com/courseimprovement/duedateadjustment

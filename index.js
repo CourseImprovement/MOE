@@ -1,8 +1,14 @@
 #! /usr/bin/env node
 
 function executeScript(path, args){
-	var init = require(path);
-	init.run(args);
+	try{
+		var init = require(path);
+		init.run(args);
+	}
+	catch (e){
+		console.log(e);
+		console.log('Invalid command');
+	}
 }
 
 (function(){
@@ -14,15 +20,8 @@ function executeScript(path, args){
 			'moe (C) BYU-Idaho\n' +
 			'-----------------------------------------------------------\n' + 
 			'Usage\n\n' + 
-			'moe init\tCreates the new JSON (config) file\n' + 
-			'moe refresh\tReloads all the included and extended files\n' + 
-			'moe js\t\tRun the JavaScript segment based on the config\n' +
-			'\n\nInstructions\n' + 
-			'-----------------------------------------------------------\n' + 
-			'Before running any moe command, make sure you\'re in the\n' + 
-			'directory where the project will reside. When running any\n' + 
-			'moe command, be in the same directory where the config.json\n' +
-			'resides.' +
+			'moe todo\tDisplay all the todo items\n' + 
+			'moe project\tDisplay help for the projects' + 
 			'\n'
 		);
 	}
@@ -32,11 +31,7 @@ function executeScript(path, args){
 	else{
 		var cmd = args[0];
 		args.splice(0, 1);
-		switch (cmd){
-			case 'init': executeScript('./src/init.js', args); break;
-			case 'js': executeScript('./src/js.js', args); break;
-			case 'refresh': executeScript('./src/refresh.js', args); break;
-		}
+		executeScript('./moe/' + cmd + '.js', args);
 	}
 
 })()
