@@ -282,7 +282,51 @@
 							"description": "Config Object",
 							"require": [],
 							"test": "",
-							"todos": [],
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": false,
+										"value": "Create update script for the dev and live config.xml file to add isEval='false' to all survey nodes. ",
+										"assign": "Grant",
+										"depth": 1,
+										"children": []
+									},
+									{
+										"complete": false,
+										"value": "Add isEval to Survey object ",
+										"assign": "Grant",
+										"depth": 1,
+										"children": []
+									},
+									{
+										"complete": false,
+										"value": "Add isEval to admin.aspx ",
+										"assign": "Grant",
+										"depth": 1,
+										"children": []
+									},
+									{
+										"complete": false,
+										"value": "Add isEval to ctrl.js ",
+										"assign": "Grant",
+										"depth": 1,
+										"children": []
+									},
+									{
+										"complete": false,
+										"value": "Update the dashboard to filter the evaluations from the completed tasks tiles ",
+										"assign": "Chase",
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
 							"isGroup": false,
 							"hasAnnotation": true,
 							"reviewedBy": null,
