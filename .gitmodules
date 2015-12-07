@@ -7,3 +7,6 @@
 [submodule "projects/duedateadjustment"]
 	path = projects/duedateadjustment
 	url = https://github.com/courseimprovement/duedateadjustment
+[submodule "web/lib/semantic-ui"]
+	path = web/lib/semantic-ui
+	url = https://github.com/semantic-org/semantic-ui/

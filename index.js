@@ -20,6 +20,10 @@ function executeScript(path, args){
 			'moe (C) BYU-Idaho\n' +
 			'-----------------------------------------------------------\n' + 
 			'Usage\n\n' + 
+			'moe serve\tLaunch the server and the webpage\n' + 
+			'moe watch\tBuild all project and index each\n' +
+			'moe index\tIndexes all projects\n' + 
+			'moe todo\tSame as index\n' +  
 			'\n'
 		);
 	}

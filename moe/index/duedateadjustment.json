@@ -1,0 +1,545 @@
+[
+	{
+		"path": "projects/duedateadjustment/Gruntfile.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/duedateadjustment/package.json",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/duedateadjustment/src/topic.js",
+		"group": {
+			"children": [
+				{
+					"children": [],
+					"type": "object",
+					"comment": {
+						"name": "Topic",
+						"description": null,
+						"require": [],
+						"test": "",
+						"todos": [],
+						"isGroup": true,
+						"hasAnnotation": true,
+						"reviewedBy": null
+					},
+					"comments": [
+						null,
+						{
+							"name": "Topic.setOffset",
+							"description": null,
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "Change the start date",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									},
+									{
+										"complete": true,
+										"value": "Change the duedate",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									},
+									{
+										"complete": true,
+										"value": "Change the end date",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									},
+									{
+										"complete": false,
+										"value": "Verify the date changes",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null
+						},
+						{
+							"name": "Topic.setStart",
+							"description": "Set the start date",
+							"require": [],
+							"test": "",
+							"todos": [],
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null
+						},
+						{
+							"name": "Topic.setEnd",
+							"description": "Set the end date",
+							"require": [],
+							"test": "",
+							"todos": [],
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null
+						},
+						{
+							"name": "Topic.setDueDate",
+							"description": "Set the due date",
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": false,
+										"value": "Set the duedate",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null
+						},
+						{
+							"name": null,
+							"description": "Checks if the topic has date",
+							"require": [],
+							"test": "",
+							"todos": [],
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null
+						}
+					]
+				}
+			],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": [
+				{
+					"name": null,
+					"description": null,
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				}
+			]
+		}
+	},
+	{
+		"path": "projects/duedateadjustment/src/topics.js",
+		"group": {
+			"children": [
+				{
+					"children": [],
+					"type": "object",
+					"comment": {
+						"name": "Topics",
+						"description": null,
+						"require": [],
+						"test": "",
+						"todos": [],
+						"isGroup": true,
+						"hasAnnotation": true,
+						"reviewedBy": null
+					},
+					"comments": [
+						null,
+						{
+							"name": "Topics",
+							"description": null,
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "Add a tick for async callback",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null
+						},
+						{
+							"name": "Topics.setCurrent",
+							"description": null,
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "Set the check the current calls with the total then call callback",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null
+						},
+						{
+							"name": "Topics.getAll",
+							"description": null,
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "Get all topics from the course",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									},
+									{
+										"complete": true,
+										"value": "Load them async",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									},
+									{
+										"complete": true,
+										"value": "Somehow return the result",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null
+						},
+						{
+							"name": "Topics._getModule",
+							"description": null,
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "Loop through the modules and get the sub topics and modules",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null
+						},
+						{
+							"name": "Topics._getTopic",
+							"description": null,
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "Set a new topic",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									},
+									{
+										"complete": true,
+										"value": "Store both topics that should be kept and those that shouldn't",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null
+						},
+						{
+							"name": "Topics.offsetAll",
+							"description": null,
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "Copy the old code from the _hidden file",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									},
+									{
+										"complete": false,
+										"value": "Verify the offset",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null
+						},
+						{
+							"name": "Topics.getModules",
+							"description": null,
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": false,
+										"value": "Search through the items or noKeep items to find modules",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null
+						}
+					]
+				}
+			],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": [
+				{
+					"name": null,
+					"description": null,
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				}
+			]
+		}
+	},
+	{
+		"path": "projects/duedateadjustment/src/valence.js",
+		"group": {
+			"children": [
+				{
+					"children": [],
+					"type": "object",
+					"comment": {
+						"name": "Valence",
+						"description": "A lightweight api collection for Valence",
+						"require": [],
+						"test": "",
+						"todos": [],
+						"isGroup": true,
+						"hasAnnotation": true,
+						"reviewedBy": null
+					},
+					"comments": [
+						null,
+						{
+							"name": "valence.call.error",
+							"description": null,
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": false,
+										"value": "            Provide better error handling",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null,
+							"assign": "Chase"
+						},
+						{
+							"name": "valence.get",
+							"description": null,
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": false,
+										"value": "    What if the apis upgrade from 1.4 to 1.5? ",
+										"assign": "Chase",
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null
+						},
+						{
+							"name": "valence.post",
+							"description": null,
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": false,
+										"value": "    Verify if this is needed",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									},
+									{
+										"complete": false,
+										"value": "    Complete the function",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									},
+									{
+										"complete": false,
+										"value": "    Remove if not needed",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null
+						}
+					]
+				}
+			],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": [
+				{
+					"name": null,
+					"description": null,
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				}
+			]
+		}
+	}
+]

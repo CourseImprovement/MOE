@@ -1,0 +1,737 @@
+[
+	{
+		"path": "projects/ims/Gruntfile.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/ims/example/structure.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/ims/lib/angular.highcharts.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/ims/lib/crypto.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/ims/lib/papaparse.min.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/ims/merge/change.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/ims/package.json",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/ims/src/admin/answer.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/ims/src/admin/config.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": [
+				{
+					"name": "Config.getHighestSurveyId",
+					"description": "Get the next highest survey id",
+					"require": [],
+					"test": "",
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [
+							{
+								"complete": false,
+								"value": "Improve the function so it returns the next Id",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							}
+						],
+						"name": "global"
+					},
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				}
+			]
+		}
+	},
+	{
+		"path": "projects/ims/src/admin/csv.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/ims/src/admin/ctrl.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/ims/src/admin/evaluation.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/ims/src/admin/init.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/ims/src/admin/master.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/ims/src/admin/permissions.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/ims/src/admin/person.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/ims/src/admin/question.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": [
+				{
+					"name": "Question.modify",
+					"description": "Modify a variable in the object. This does not, however, save the object, that can only be done at the survey level.",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				}
+			]
+		}
+	},
+	{
+		"path": "projects/ims/src/admin/rollup.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/ims/src/admin/semestersetup.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/ims/src/admin/survey.js",
+		"group": {
+			"children": [
+				{
+					"children": [],
+					"type": "object",
+					"comment": {
+						"name": "Survey",
+						"description": null,
+						"require": [],
+						"test": "",
+						"todos": {
+							"complete": false,
+							"value": null,
+							"assign": null,
+							"depth": 0,
+							"parent": null,
+							"children": [
+								{
+									"complete": false,
+									"value": "Comment all the code",
+									"assign": null,
+									"depth": 1,
+									"children": []
+								},
+								{
+									"complete": false,
+									"value": "Simplify the functions",
+									"assign": null,
+									"depth": 1,
+									"children": []
+								}
+							],
+							"name": "global"
+						},
+						"isGroup": true,
+						"hasAnnotation": true,
+						"reviewedBy": null
+					},
+					"comments": [
+						null,
+						{
+							"name": "Survey",
+							"description": null,
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": false,
+										"value": "Remove xml function",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									},
+									{
+										"complete": false,
+										"value": "Move xml related stuff to static function",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									},
+									{
+										"complete": false,
+										"value": "remove logic",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null
+						},
+						{
+							"name": "Survey.getPerson",
+							"description": null,
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": false,
+										"value": "Simplify the function",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null
+						},
+						{
+							"name": "Survey._setXmlQuestions",
+							"description": "Set the questions questions by passing in the question node from the XML",
+							"require": [],
+							"test": "",
+							"todos": [],
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null
+						},
+						{
+							"name": "Survey.getName",
+							"description": null,
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": false,
+										"value": "Do some type checking",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null
+						},
+						{
+							"name": "Survey.toXml",
+							"description": "Use the objects member variables to create the survey node",
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": false,
+										"value": "Convert to the new byui.js toXml api",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null
+						},
+						{
+							"name": "Survey.save",
+							"description": "Create the xml from the given objects. Remove the survey from the config file. Add the newly created xml to the config file.",
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": false,
+										"value": "Remove any xml data",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null
+						},
+						{
+							"name": "Survey.remove",
+							"description": "Remove the survey from the xml of the config",
+							"require": [],
+							"test": "",
+							"todos": [],
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null
+						},
+						{
+							"name": "Survey.modify",
+							"description": "Modifiy a certain aspect of object, if save is necessary, its there.",
+							"require": [],
+							"test": "",
+							"todos": [],
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null
+						},
+						{
+							"name": "Survey.copy",
+							"description": "Clone and rename survey to append (Copy) and increment the id",
+							"require": [
+								"Config.getHighestSurveyId"
+							],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": false,
+										"value": "Improve the window.config.getHighestSurveyId + 1 function",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null
+						},
+						{
+							"name": null,
+							"description": "Collects the questions, people, and the peoples answers",
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": false,
+										"value": "Simplify the function",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									},
+									{
+										"complete": false,
+										"value": "Remove repeats of code",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									},
+									{
+										"complete": true,
+										"value": "Add a separate processItems function",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null
+						},
+						{
+							"name": "Survey.getHighestQuestionId",
+							"description": null,
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": false,
+										"value": "Replace function with getNextQuestionId",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									},
+									{
+										"complete": false,
+										"value": "Replace in all dependencies",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null
+						}
+					]
+				}
+			],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": [
+				{
+					"name": null,
+					"description": null,
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				}
+			]
+		}
+	},
+	{
+		"path": "projects/ims/src/course.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/ims/src/ctrl.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/ims/src/feedback.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/ims/src/menu.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/ims/src/misc.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/ims/src/question.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/ims/src/role.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/ims/src/rollup.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/ims/src/semester.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/ims/src/sharepoint.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/ims/src/survey.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/ims/src/tile.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/ims/src/user.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/ims/world/js/d3.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/ims/world/js/queue.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/ims/world/js/topo.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/ims/world/world.json",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	}
+]
