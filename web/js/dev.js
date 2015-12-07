@@ -32,22 +32,26 @@ function printTasks(group, name){
 	for (var i = 0; i < group.comments.length; i++){
 		if (group.comments[i]){
 			var result = '';			
-			if (group.comments[i].todos && group.comments[i].todos.children && group.comments[i].todos.children.length > 0){	
+			if (group.comments[i].todos && group.comments[i].todos.children && group.comments[i].todos.children.length > 0){
 				if (name) header(name);
 				result += '<table class="ui celled table"><thead><tr><th width="200px">Name</th><th>Tasks</th></tr></thead>';
 				result += '<tr><td>' + group.comments[i].name + '</td><td><table class="ui celled table"><thead><tr><th>Task</th><th width="140px">Assigned To</th><th width="100px;" style="text-align: center;">Complete</th></tr></thead>';
+				var hasIncomplete = false;
 				for (var j = 0; j < group.comments[i].todos.children.length; j++){
 					result += '<tr>';
 					result += '<td>' + group.comments[i].todos.children[j].value + '</td>';
 					result += '<td>' + group.comments[i].todos.children[j].assign + '</td>';
 					console.log(group.comments[i].todos.children[j]);
+					if (!hasIncomplete && !group.comments[i].todos.children[j].complete){
+						hasIncomplete = true;
+					}
 					result += '<td style="text-align: center;">' + (group.comments[i].todos.children[j].complete ? '<i class="icon checkmark"></i>' : '<i class="icon close"></i>') + '</td>';
 					result += '</tr>';
 				}
 				result += '</table></td></tr>';
 			}
 			result += '</table>';
-			$('#display').append(result);
+			if (hasIncomplete) $('#display').append(result);
 		}
 	}	
 }
