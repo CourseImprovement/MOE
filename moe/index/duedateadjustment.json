@@ -25,7 +25,7 @@
 			"children": [
 				{
 					"children": [],
-					"type": "object",
+					"type": null,
 					"comment": {
 						"name": "Topic",
 						"description": null,
@@ -141,7 +141,8 @@
 							"hasAnnotation": true,
 							"reviewedBy": null
 						}
-					]
+					],
+					"name": "object"
 				}
 			],
 			"parent": null,
@@ -167,7 +168,7 @@
 			"children": [
 				{
 					"children": [],
-					"type": "object",
+					"type": null,
 					"comment": {
 						"name": "Topics",
 						"description": null,
@@ -390,7 +391,8 @@
 							"hasAnnotation": true,
 							"reviewedBy": null
 						}
-					]
+					],
+					"name": "object"
 				}
 			],
 			"parent": null,
@@ -416,7 +418,7 @@
 			"children": [
 				{
 					"children": [],
-					"type": "object",
+					"type": null,
 					"comment": {
 						"name": "Valence",
 						"description": "A lightweight api collection for Valence",
@@ -522,7 +524,8 @@
 							"hasAnnotation": true,
 							"reviewedBy": null
 						}
-					]
+					],
+					"name": "object"
 				}
 			],
 			"parent": null,

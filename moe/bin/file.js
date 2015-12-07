@@ -97,10 +97,10 @@ File.prototype.parse = function(){
 				case 'start': {
 					var val = this.getValue();
 					var words = val.trim().split(' ');
-					var type = words[0];
-					if (type != 'test'){
+					var name = words[0];
+					if (name != 'test'){
 						this.openGroup();
-						this.currentGroup.type = type;
+						this.currentGroup.name = name;
 						this.currentComment.isGroup = true;
 					}
 					else{
