@@ -31,9 +31,12 @@ function draw(data){
 		events += addEvent('Total Todo Items', data.totalTodos);
 		events += addEvent('Percent Complete', data.complete);
 
-		var html = '<div class="ui card"><div class=content><div class=header>Project ' + data.name + '</div></div><div class=content><h4 class="ui sub header">Stats</h4><div class="ui small feed">' + events + '</div></div><div class="extra content"><button class="ui button blue">Stakeholders</button><a class="ui button" href="dev.html?proj=' + data.name + '">Developer</a></div></div>';
+		var html = '<div class="ui card"><div class=content><div class=header>Project ' + data.name + '</div></div><div class=content><h4 class="ui sub header">Stats</h4><div class="ui small feed">' + events + '</div></div><div class="extra content"><div class="ui floating labeled icon dropdown button links"> <i class="filter icon"></i> <span class="text">Links</span> <div class="menu"> <div class="header"> <i class="tags icon"></i> Filter by Tool </div><a href="#" class="item">Stakeholders</a> <a href="test.html?proj=' + data.name + '" class="item">Tests</a> <a href="dev.html?proj=' + data.name + '" class="item">Development</a> </div></div></div></div>';
 		return html;
 	});
+	$('.links.dropdown').dropdown({
+		transition: 'drop'
+	})
 }
 
 function addEvent(name, value){

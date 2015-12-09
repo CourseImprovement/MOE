@@ -20,6 +20,16 @@
 		}
 	},
 	{
+		"path": "projects/duedateadjustment/src/sort.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
 		"path": "projects/duedateadjustment/src/topic.js",
 		"group": {
 			"children": [
@@ -118,7 +128,7 @@
 								"parent": null,
 								"children": [
 									{
-										"complete": false,
+										"complete": true,
 										"value": "Set the duedate",
 										"assign": null,
 										"depth": 1,
@@ -137,6 +147,176 @@
 							"require": [],
 							"test": "",
 							"todos": [],
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null
+						},
+						{
+							"name": "Topic.save",
+							"description": null,
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": false,
+										"value": "Generate the appropriate post data",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									},
+									{
+										"complete": false,
+										"value": "Post the data",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null
+						},
+						{
+							"name": "Topic.save.createDateProperties",
+							"description": null,
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "  Set all the d2l variables",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null
+						},
+						{
+							"name": "Topic.save.createModuleProperties",
+							"description": null,
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "  Set all the d2l variables",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null
+						},
+						{
+							"name": "Topic.save.createTopicProperties",
+							"description": null,
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "  Set all the d2l variables",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null
+						},
+						{
+							"name": "Topic.save.getUrlType",
+							"description": null,
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "  Set all the d2l variables",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null
+						},
+						{
+							"name": "Topic.save.createDateProperties",
+							"description": null,
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "  Set all the d2l variables",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									},
+									{
+										"complete": true,
+										"value": "  Set the url to the Topic",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
 							"isGroup": false,
 							"hasAnnotation": true,
 							"reviewedBy": null
@@ -357,6 +537,13 @@
 										"assign": null,
 										"depth": 1,
 										"children": []
+									},
+									{
+										"complete": true,
+										"value": "Change only the ones that need change",
+										"assign": null,
+										"depth": 1,
+										"children": []
 									}
 								],
 								"name": "global"
@@ -378,8 +565,48 @@
 								"parent": null,
 								"children": [
 									{
-										"complete": false,
+										"complete": true,
 										"value": "Search through the items or noKeep items to find modules",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null
+						},
+						{
+							"name": "Topics.render",
+							"description": null,
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "Render the html table",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									},
+									{
+										"complete": true,
+										"value": "Set the single change callback",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									},
+									{
+										"complete": true,
+										"value": "Set the completion callback",
 										"assign": null,
 										"depth": 1,
 										"children": []
@@ -393,6 +620,98 @@
 						}
 					],
 					"name": "object"
+				}
+			],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": [
+				{
+					"name": null,
+					"description": null,
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				}
+			]
+		}
+	},
+	{
+		"path": "projects/duedateadjustment/src/ui.js",
+		"group": {
+			"children": [
+				{
+					"children": [],
+					"type": null,
+					"comment": {
+						"name": null,
+						"description": null,
+						"require": [],
+						"test": "",
+						"todos": [],
+						"isGroup": true,
+						"hasAnnotation": true,
+						"reviewedBy": null
+					},
+					"comments": [
+						null,
+						{
+							"name": "Table.draw",
+							"description": null,
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": false,
+										"value": "Toggle on / off",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null
+						},
+						{
+							"name": null,
+							"description": null,
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "Set the callbacks to a local public variable",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null
+						}
+					],
+					"name": "UI"
 				}
 			],
 			"parent": null,
@@ -431,6 +750,16 @@
 					},
 					"comments": [
 						null,
+						{
+							"name": "valence",
+							"description": null,
+							"require": [],
+							"test": "assert(!!valence, \"Invalid valence object\");",
+							"todos": [],
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null
+						},
 						{
 							"name": "valence.call.error",
 							"description": null,

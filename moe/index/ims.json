@@ -290,35 +290,35 @@
 								"parent": null,
 								"children": [
 									{
-										"complete": false,
+										"complete": true,
 										"value": "Create update script for the dev and live config.xml file to add isEval='false' to all survey nodes. ",
 										"assign": "Grant",
 										"depth": 1,
 										"children": []
 									},
 									{
-										"complete": false,
+										"complete": true,
 										"value": "Add isEval to Survey object ",
 										"assign": "Grant",
 										"depth": 1,
 										"children": []
 									},
 									{
-										"complete": false,
+										"complete": true,
 										"value": "Add isEval to admin.aspx ",
 										"assign": "Grant",
 										"depth": 1,
 										"children": []
 									},
 									{
-										"complete": false,
+										"complete": true,
 										"value": "Add isEval to ctrl.js ",
 										"assign": "Grant",
 										"depth": 1,
 										"children": []
 									},
 									{
-										"complete": false,
+										"complete": true,
 										"value": "Update the dashboard to filter the evaluations from the completed tasks tiles ",
 										"assign": "Chase",
 										"depth": 1,
@@ -4481,6 +4481,32 @@
 					"comments": [
 						null,
 						{
+							"name": "Rollup",
+							"description": null,
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": false,
+										"value": "Fix rollup on im and aim",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null
+						},
+						{
 							"name": "avg",
 							"description": "Given the sum and number of items summed it calculates the average",
 							"require": [],
@@ -5145,7 +5171,23 @@
 							"description": "Survey Object",
 							"require": [],
 							"test": "",
-							"todos": [],
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "Remove iseval from all surveys",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
 							"isGroup": false,
 							"hasAnnotation": true,
 							"reviewedBy": null
@@ -5939,7 +5981,34 @@
 			"parent": null,
 			"type": null,
 			"comment": null,
-			"comments": []
+			"comments": [
+				{
+					"name": null,
+					"description": "Gets the roles menu, if instructor return null",
+					"require": [],
+					"test": "",
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [
+							{
+								"complete": false,
+								"value": "Rename 'INSTRUCTOR' to 'Instructor'",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							}
+						],
+						"name": "global"
+					},
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				}
+			]
 		}
 	},
 	{
@@ -5989,7 +6058,48 @@
 			"parent": null,
 			"type": null,
 			"comment": null,
-			"comments": []
+			"comments": [
+				{
+					"name": "Tile",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [
+							{
+								"complete": false,
+								"value": "Rename roster to resources",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							},
+							{
+								"complete": false,
+								"value": "Link to performance report under resources",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							},
+							{
+								"complete": false,
+								"value": "Course vists",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							}
+						],
+						"name": "global"
+					},
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				}
+			]
 		}
 	},
 	{
