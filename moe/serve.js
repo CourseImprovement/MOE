@@ -21,7 +21,7 @@ function puts(error, stdout, stderr) { if (stderr) console.log(stderr); }
 
 Serve.prototype.run = function(args){
 	exec('open http://localhost:8000/web/dashboard.html', puts);
-	exec('php -S localhost:8000', puts);
+	exec('grunt serve', puts);
 }
 
 module.exports = new Serve();

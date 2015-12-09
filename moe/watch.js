@@ -32,7 +32,7 @@ Watch.prototype.run = function(args){
 	if (isWin){
 		fs.watch('.\\projects', {recursive: true}, function(e, name){
 			if (name.indexOf('build\\') > -1) return;
-			if (lastBuiltPath.length == 0) {
+			/*if (lastBuiltPath.length == 0) {
 				lastBuiltPath = name;
 				lastBuildTime = new Date();
 			}
@@ -42,11 +42,12 @@ Watch.prototype.run = function(args){
 				}
 			}
 
-			lastBuildTime = new Date();
+			lastBuildTime = new Date();*/
 
 			var proj = name.split('\\')[0];
 			exec("moe index", puts);
 			exec("grunt --base .\\projects\\" + proj + " --gruntfile .\\projects\\" + proj + "\\GruntFile.js", puts);
+
 			console.log('Building....');
 		});
 	}

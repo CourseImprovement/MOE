@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "description": "Maintainable, Organized and Efficient",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-connect": "^0.11.2"
+  },
   "scripts": {
     "test": "grunt test"
   },

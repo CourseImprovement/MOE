@@ -2,7 +2,6 @@ $(document).ready(function(){
 	var name = getName();
 	$('#project').html(name);
 	$.get('../moe/index/' + name.toLowerCase() + '.json', function(proj){
-		proj = JSON.parse(proj);
 
 		for (var i = 0; i < proj.length; i++){
 			if (proj[i].group.children.length > 0){

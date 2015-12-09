@@ -1,9 +1,12 @@
 $.get('../moe/index/index.json', function(projects){
-	projects = JSON.parse(projects);
+	//projects = JSON.parse(projects);
 	for (var i = 0; i < projects.length; i++){
-		var p = projects[i].replace('projects/', '');
+		var p = '';
+		if (projects[i].indexOf('projects/') > -1) p = projects[i].replace('projects/', '');
+		else p = projects[i].replace('projects\\', '');
+		console.log(p);
 		$.get('../moe/index/' + p + '.json', function(result, a, b){
-			process(JSON.parse(result));
+			process(result);
 		});
 	}
 })
