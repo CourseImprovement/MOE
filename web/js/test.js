@@ -9,7 +9,7 @@ $.get(url, function(javascript){
 		var name = getName();
 		$('#project').html(name);
 		$.get('../moe/index/' + name.toLowerCase() + '.json', function(proj){
-			proj = JSON.parse(proj);
+			//proj = JSON.parse(proj);
 			var tests = getAllTests(proj);
 			runTests(tests);
 		});
@@ -21,6 +21,7 @@ function getAllTests(ary, path){
 	for (var i = 0; i < ary.length; i++){
 		if (ary[i].group && ary[i].group.comments && ary[i].group.comments.length > 0){
 			for (var j = 0; j < ary[i].group.comments.length; j++){
+				if (!ary[i].group.comments[j]) continue;
 				var test = ary[i].group.comments[j].test;
 				if (test && test.length > 0){
 					result.push({

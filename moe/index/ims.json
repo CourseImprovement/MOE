@@ -855,7 +855,7 @@
 										"children": []
 									},
 									{
-										"complete": false,
+										"complete": true,
 										"value": "Possibly remove this function",
 										"assign": null,
 										"depth": 1,
@@ -1122,7 +1122,7 @@
 								"parent": null,
 								"children": [
 									{
-										"complete": false,
+										"complete": true,
 										"value": "Change AZ as the highest to BZ",
 										"assign": null,
 										"depth": 1,
@@ -1199,33 +1199,6 @@
 							"isGroup": false,
 							"hasAnnotation": true,
 							"reviewedBy": null
-						},
-						{
-							"name": "getData",
-							"description": "Get the CSV's data in array form",
-							"require": [],
-							"test": "",
-							"todos": {
-								"complete": false,
-								"value": null,
-								"assign": null,
-								"depth": 0,
-								"parent": null,
-								"children": [
-									{
-										"complete": false,
-										"value": "Return the data",
-										"assign": null,
-										"depth": 1,
-										"children": []
-									}
-								],
-								"name": "global"
-							},
-							"isGroup": false,
-							"hasAnnotation": true,
-							"reviewedBy": null,
-							"assign": "Grant"
 						},
 						{
 							"name": "readFile",
@@ -2474,6 +2447,112 @@
 							"isGroup": false,
 							"hasAnnotation": true,
 							"reviewedBy": null
+						},
+						{
+							"name": "toInt",
+							"description": "Converts a str to a num and handles it if it is a range of numbers by choosing the first number",
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "Check that the str is not intro week",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									},
+									{
+										"complete": true,
+										"value": "\tCheck for a dash",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									},
+									{
+										"complete": true,
+										"value": "Convert the string to an int",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null
+						},
+						{
+							"name": "addItemReverseOrder",
+							"description": "Adds a single item to the given array based on the value of the week",
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "If the week is empty then it is added to the end",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									},
+									{
+										"complete": true,
+										"value": "Add item based on items in list",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									},
+									{
+										"complete": true,
+										"value": "Return list ",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null
+						},
+						{
+							"name": "angular.filter.reverseByWeek",
+							"description": "Reverses the items in an ng-repeat by id",
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "Filter by week ",
+										"assign": "Grant",
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null
 						}
 					],
 					"name": "angular"
@@ -3084,7 +3163,7 @@
 						},
 						{
 							"name": "query",
-							"description": "",
+							"description": "Search for users",
 							"require": [],
 							"test": "",
 							"todos": {
@@ -3095,14 +3174,14 @@
 								"parent": null,
 								"children": [
 									{
-										"complete": false,
+										"complete": true,
 										"value": "\tadd description",
 										"assign": null,
 										"depth": 1,
 										"children": []
 									},
 									{
-										"complete": false,
+										"complete": true,
 										"value": "\tadd todos",
 										"assign": null,
 										"depth": 1,
@@ -3285,7 +3364,7 @@
 								"parent": null,
 								"children": [
 									{
-										"complete": false,
+										"complete": true,
 										"value": "\tpossibly remove this function",
 										"assign": null,
 										"depth": 1,
@@ -3301,7 +3380,7 @@
 						},
 						{
 							"name": "getPermissionsXml",
-							"description": "",
+							"description": "Get the permissions xml file. This file is used to prevent the overusage of API calls to the SharePoint server",
 							"require": [],
 							"test": "",
 							"todos": {
@@ -3312,7 +3391,7 @@
 								"parent": null,
 								"children": [
 									{
-										"complete": false,
+										"complete": true,
 										"value": "\tAdd a description",
 										"assign": null,
 										"depth": 1,
@@ -4493,7 +4572,7 @@
 								"parent": null,
 								"children": [
 									{
-										"complete": false,
+										"complete": true,
 										"value": "Fix rollup on im and aim",
 										"assign": null,
 										"depth": 1,
@@ -4827,6 +4906,16 @@
 							"assign": "Grant"
 						},
 						{
+							"name": "_createConfig",
+							"description": "",
+							"require": [],
+							"test": "",
+							"todos": [],
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null
+						},
+						{
 							"name": "_createOrg",
 							"description": "Creates a new org from the csv",
 							"require": [],
@@ -4978,6 +5067,16 @@
 							"hasAnnotation": true,
 							"reviewedBy": null,
 							"assign": "Grant"
+						},
+						{
+							"name": "addCourse",
+							"description": "",
+							"require": [],
+							"test": "",
+							"todos": [],
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null
 						},
 						{
 							"name": "addStewardship",
@@ -5921,7 +6020,68 @@
 			"parent": null,
 			"type": null,
 			"comment": null,
-			"comments": []
+			"comments": [
+				{
+					"name": "Course.getName",
+					"description": "Get the name of the course",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Course.getSections",
+					"description": "Get the sections for the course in an Array",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Course.getCredits",
+					"description": "Get the credits for the course",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Course.isPilot",
+					"description": "Checks if the course is piloting",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "getHref",
+					"description": "Get the href for the course",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Course.getCurrent",
+					"description": "Returns the course that is currently being viewed",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				}
+			]
 		}
 	},
 	{
@@ -5931,7 +6091,350 @@
 			"parent": null,
 			"type": null,
 			"comment": null,
-			"comments": []
+			"comments": [
+				{
+					"name": "back",
+					"description": "Go back to the previous webpage",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "openRoleMenu",
+					"description": "Show a list of roles that the user has",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "toggleSubMenu",
+					"description": "Toggle the views of the sub menu",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "openCourseMenu",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "openSemesterMenu",
+					"description": null,
+					"require": [],
+					"test": "",
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [
+							{
+								"complete": true,
+								"value": "\t\tSet the drop down for the semester",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							}
+						],
+						"name": "global"
+					},
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "openSearch",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "appendChart",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "redirect",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "changelimit",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "closeSearch",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "toggleMenu",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "questionClick",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "questionClickOut",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "closeOverlay",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "background-cover",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "openSurveyData",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "searching",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "toggleReviewed",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "toggleMobileMenu",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "OneCol",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "toInt",
+					"description": "Converts a str to a num and handles it if it is a range of numbers by choosing the first number",
+					"require": [],
+					"test": "",
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [
+							{
+								"complete": true,
+								"value": "\tCheck that the str is not intro week",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							},
+							{
+								"complete": true,
+								"value": "\t\tCheck for a dash",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							},
+							{
+								"complete": true,
+								"value": "\tConvert the string to an int",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							}
+						],
+						"name": "global"
+					},
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "addItemReverseOrder",
+					"description": "Adds a single item to the given array based on the value of the week",
+					"require": [],
+					"test": "",
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [
+							{
+								"complete": true,
+								"value": "\tIf the week is empty then it is added to the end",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							},
+							{
+								"complete": true,
+								"value": "\tAdd item based on items in list",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							},
+							{
+								"complete": true,
+								"value": "\tReturn list ",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							}
+						],
+						"name": "global"
+					},
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "angular.filter.reverseByWeek",
+					"description": "Reverses the items in an ng-repeat by id",
+					"require": [],
+					"test": "",
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [
+							{
+								"complete": true,
+								"value": "\tFilter by week ",
+								"assign": "Grant",
+								"depth": 1,
+								"children": []
+							}
+						],
+						"name": "global"
+					},
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "reverse",
+					"description": "Reverse the items in an ng-repeat",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "noDuplicates",
+					"description": "Remove the duplates from the suggestions ng-repeat",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				}
+			]
 		}
 	},
 	{
@@ -5941,7 +6444,18 @@
 			"parent": null,
 			"type": null,
 			"comment": null,
-			"comments": []
+			"comments": [
+				{
+					"name": "Computer",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				}
+			]
 		}
 	},
 	{
@@ -5951,7 +6465,48 @@
 			"parent": null,
 			"type": null,
 			"comment": null,
-			"comments": []
+			"comments": [
+				{
+					"name": "Menu",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "_setItems",
+					"description": "Set the items",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "getItems",
+					"description": "Get all items",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "MenuItems",
+					"description": "A specific item in the menu",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				}
+			]
 		}
 	},
 	{
@@ -5961,7 +6516,118 @@
 			"parent": null,
 			"type": null,
 			"comment": null,
-			"comments": []
+			"comments": [
+				{
+					"name": "ims",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "ims.params",
+					"description": "Get the params found in the url",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "redirectError",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "ims.aes",
+					"description": "Global encryption library",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "ims.aes.encrypt",
+					"description": "Encrypt a string",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "ims.aes.decrypt",
+					"description": "Decrypt a string",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "ims.aes.value",
+					"description": "The global encrypted value",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "hexEncode",
+					"description": "Encode the string in hex",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "hexDecode",
+					"description": "Dencode the string in hex",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "ims.aes.initDecrypt",
+					"description": "Initial decrypt",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "ims.tooltip",
+					"description": "Show a tooltip",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				}
+			]
 		}
 	},
 	{
@@ -5971,7 +6637,68 @@
 			"parent": null,
 			"type": null,
 			"comment": null,
-			"comments": []
+			"comments": [
+				{
+					"name": "Question",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Question.getText",
+					"description": "Get the text of the survey",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Question.getAnswer",
+					"description": "Get the answer for the question",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Question.getSmartName",
+					"description": "Get the smart goal title",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Question.hasAnswer",
+					"description": "Checks for an answer",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Question._cleanAnswer",
+					"description": "Internal function to clean the answer based on the configurations",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				}
+			]
 		}
 	},
 	{
@@ -5983,7 +6710,413 @@
 			"comment": null,
 			"comments": [
 				{
-					"name": null,
+					"name": "Role",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Role.getTitles",
+					"description": "Get the tiles based on role",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Role.getSingleInstructorStandard",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Role.getSingleInstructorHours",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Role.getInstructorHours",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Role.getInstructorStandardsDrillDown",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Role.backStandard",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Role.setInstructorStandardsDrillUp",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Role.getInstructorStandardsByName",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Role.getInstructorStandards",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Role.getAvgInstructorHoursByGroup",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Role.getTasksToReview",
+					"description": "Get the tasks to review",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Role.getIncompleteTasks",
+					"description": "Get the incomplete tasks of the lower",
+					"require": [],
+					"test": "",
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [
+							{
+								"complete": true,
+								"value": "Get all lower person surveys",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							},
+							{
+								"complete": true,
+								"value": "Get all survey ids from the above task",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							},
+							{
+								"complete": true,
+								"value": "see who doesn't have that Id",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							}
+						],
+						"name": "global"
+					},
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Role.getRoleName",
+					"description": "return the name of the current role",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Role.getOrg",
+					"description": "return the lowers in an object",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Role.isRoleDownFromCurrentUser",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Role._setOrg",
+					"description": "creates the users organization",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Role._recursiveChildren",
+					"description": "Recursivly get the org",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Role._nextLower",
+					"description": "Get the next lower role",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Role._nextHigher",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Role._nextLowerForMenu",
+					"description": "Get the next lower role for the menu",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Role.getLowerRole",
+					"description": "API call for _nextLowerRole()",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Role.getHigherRole",
+					"description": "API call for _nextHigherRole()",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Role.getLowerRoleInit",
+					"description": "Init function for lower role",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Role.getQuestionForGroup",
+					"description": "returns collection of average standards by week for a group",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Role.getQuestionForAll",
+					"description": "returns collection of average standards by week for everyone",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Role.getRoster",
+					"description": "returns a list of the various people in the users group",
+					"require": [],
+					"test": "",
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [
+							{
+								"complete": true,
+								"value": "Include performance report link",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							}
+						],
+						"name": "global"
+					},
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Role.getLeader",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Role.getLower",
+					"description": "return collection of underlings",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Role.getLowerTasks",
+					"description": "return collection of completed and incompleted tasks by underlings",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Role.getCompletedTasks",
+					"description": "return collection of completed tasks for current user",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Role.getEvaluations",
+					"description": "return collection of evaluations for current user",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Role.getCompletedTasksByCourse",
+					"description": "Get the completed tasks by course",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Role.getHref",
+					"description": "Get the href for that given role",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Role._getHats",
+					"description": "Get the different hats for the role menu",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Role.getSuggested",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Role.getRolesMenu",
 					"description": "Gets the roles menu, if instructor return null",
 					"require": [],
 					"test": "",
@@ -5995,7 +7128,7 @@
 						"parent": null,
 						"children": [
 							{
-								"complete": false,
+								"complete": true,
 								"value": "Rename 'INSTRUCTOR' to 'Instructor'",
 								"assign": null,
 								"depth": 1,
@@ -6018,7 +7151,48 @@
 			"parent": null,
 			"type": null,
 			"comment": null,
-			"comments": []
+			"comments": [
+				{
+					"name": "Rollup",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Rollup._initalXmlLoad",
+					"description": "loads the xml file if the file is not already loaded",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Rollup.getData",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Rollup._getData",
+					"description": "returns a list of the data topics",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				}
+			]
 		}
 	},
 	{
@@ -6028,7 +7202,104 @@
 			"parent": null,
 			"type": null,
 			"comment": null,
-			"comments": []
+			"comments": [
+				{
+					"name": "Semester",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Semester.getCode",
+					"description": "Get the semester code",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Semester.getHref",
+					"description": "Get the href for the menu item",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Semester.getName",
+					"description": null,
+					"require": [],
+					"test": "",
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [
+							{
+								"complete": true,
+								"value": "Get the name of the semester",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							}
+						],
+						"name": "global"
+					},
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Semesters",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Semesters.getCurrent",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Semesters.getCurrentCode",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": null,
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				}
+			]
 		}
 	},
 	{
@@ -6038,7 +7309,138 @@
 			"parent": null,
 			"type": null,
 			"comment": null,
-			"comments": []
+			"comments": [
+				{
+					"name": "ims.sharepoint",
+					"description": "Sharepoint items",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "ims.sharepoint.base",
+					"description": "The base url for the api calls",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "ims.sharepoint.relativeBase",
+					"description": "The relative base for the api calls",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "ims.sharepoint.makePostRequest",
+					"description": "Make a Sharepoint post request. This is most commly used when a file is being posted",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "ims.sharepoint.redirectToLoggedInUser",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "ims.sharepoint.getLoggedInUserEmail",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "ims.sharepoint.getSurveyConfig",
+					"description": "Get the survey configuration file. This file houses all the configurations for the surveys.",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "ims.sharepoint.postCurrentFile",
+					"description": "Posts the current user xml file.",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "ims.sharepoint.postFile",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "ims.sharepoint.postFileTestTest",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "ims.sharepoint.postFileTest",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "ims.sharepoint.markAsReviewed",
+					"description": "Marks a certain users survey as reviewed.",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "ims.sharepoint.getXmlByEmail",
+					"description": "Get a XML file for a given user by email address.",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				}
+			]
 		}
 	},
 	{
@@ -6048,7 +7450,174 @@
 			"parent": null,
 			"type": null,
 			"comment": null,
-			"comments": []
+			"comments": [
+				{
+					"name": "Survey",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Survey.getConfig",
+					"description": "Get the basic survey config file",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Survey.getNameById",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [
+							{
+								"complete": true,
+								"value": "Get the survey name by an id",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							}
+						],
+						"name": "global"
+					},
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Survey._setAnswers",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Survey.getName",
+					"description": "Get the name of the survey",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Survey.isReviewed",
+					"description": "Verifiy if the survey is reviewed",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Survey.getWeek",
+					"description": "Get the week of the survey",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Survey.isEvaluation",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Survey.getAnswers",
+					"description": "Get the answers of the survey",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Survey.isComplete",
+					"description": "Check if the survey is completed or empty",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Survey.getPlacement",
+					"description": "Checks the placement of the survey",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Survey.toggleReviewed",
+					"description": "Toggle if the survey has been reviewed or not",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Survey.getQuestionsContainingText",
+					"description": "Search for all questions containing text",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Survey.getCourse",
+					"description": "Gets the course the survey was taken. If the course",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Survey.getQuestions",
+					"description": "Get the questions from the survey, alias for getAnswers()",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				}
+			]
 		}
 	},
 	{
@@ -6072,14 +7641,14 @@
 						"parent": null,
 						"children": [
 							{
-								"complete": false,
+								"complete": true,
 								"value": "Rename roster to resources",
 								"assign": null,
 								"depth": 1,
 								"children": []
 							},
 							{
-								"complete": false,
+								"complete": true,
 								"value": "Link to performance report under resources",
 								"assign": null,
 								"depth": 1,
@@ -6098,6 +7667,26 @@
 					"isGroup": false,
 					"hasAnnotation": true,
 					"reviewedBy": null
+				},
+				{
+					"name": "Tile.getAll",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Tile.tmpPretty",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
 				}
 			]
 		}
@@ -6109,7 +7698,504 @@
 			"parent": null,
 			"type": null,
 			"comment": null,
-			"comments": []
+			"comments": [
+				{
+					"name": "User",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User.HoursStandard",
+					"description": "The standard for instructor hours per credit",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User.getCurrent",
+					"description": "Get the current user (the current dashboard user)",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User.redirectToLoggedInUser",
+					"description": "Get the email and redirect to the logged in user",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User.getLoggedInUserEmail",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User.redirectToDashboard",
+					"description": "The inital search for person",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User.getSuggested",
+					"description": "Get the suggested list",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User.getAllRoles",
+					"description": "Get all the roles associated with the user",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User.canSearch",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [],
+						"name": "global"
+					},
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User.isLeader",
+					"description": null,
+					"require": [],
+					"test": "",
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [],
+						"name": "global"
+					},
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User.isCurrent",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User._setSurveys",
+					"description": "Internal function to populate the users surveys into the _surveys",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User._setPersonalInfo",
+					"description": "Set the basic personal information",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User.showCourseMenu",
+					"description": "Show the course menu for an instructor",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User.selectedCourse",
+					"description": "Returns the selected course if the user is an instructor",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User._setCourses",
+					"description": "Set the courses",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User.getFirst",
+					"description": "Get the first name of the user",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User.getLast",
+					"description": "Get the last name of the user",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User.getHighestRole",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User.getLeader",
+					"description": "Only used for instructors",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User.getEmail",
+					"description": "Get the email of the user",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User.getFullEmail",
+					"description": "Get the email of the user including the",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User.getFullName",
+					"description": "Get the full name of the user with a space between the first",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User.getSurvey",
+					"description": "Get a specific survey from the user",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User.save",
+					"description": "Save the xml to the server",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User.getSurveys",
+					"description": "Get an Array of the surveys",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "USer.getSurveysByPlacement",
+					"description": "Get the survey by placement",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User.getRole",
+					"description": "Get the users role relative to the current user and their role",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User.getRoleAs",
+					"description": "Get the role as with a hat",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User.isNew",
+					"description": "Validates if the instructor is a new instructor",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User.getHref",
+					"description": "Get the href for the user",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User.getSmartGoals",
+					"description": "Returns an array of SMART goals if taken",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User.getTargetHours",
+					"description": "Get the target hours for this user.",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User.backButton",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User.getHours",
+					"description": "Get the weekly hours averaged out by course",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User.getHoursRaw",
+					"description": "Get the weekly hours averaged out by course",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User.getStandard",
+					"description": "",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User.getWeeklyReflections",
+					"description": "Get an array of the weekly reflections",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User.redirectTo",
+					"description": "Redirect the url to a specific place",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User.redirectHome",
+					"description": "Redirect to the base dashboard",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User.redirectBack",
+					"description": "Redirects back to the previous page",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User.getCourses",
+					"description": "Get an array of Course objects",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User.getCourse",
+					"description": "Get a course by name",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User.getCourseById",
+					"description": "Get a course by id",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User.getTotalCredits",
+					"description": "Get the total Credits this user is taking",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User.getSemesters",
+					"description": "Get a list of available semesters for this user",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User.getSemesterMenu",
+					"description": "Gets the semester Menu",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "User.getCoursesMenu",
+					"description": "Gets the courses menu, if no courses needed, return null",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				}
+			]
 		}
 	},
 	{

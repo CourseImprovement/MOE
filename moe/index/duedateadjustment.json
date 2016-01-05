@@ -20,6 +20,36 @@
 		}
 	},
 	{
+		"path": "projects/duedateadjustment/src/filter.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/duedateadjustment/src/moment.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/duedateadjustment/src/picker.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
 		"path": "projects/duedateadjustment/src/sort.js",
 		"group": {
 			"children": [],
@@ -32,309 +62,450 @@
 	{
 		"path": "projects/duedateadjustment/src/topic.js",
 		"group": {
-			"children": [
-				{
-					"children": [],
-					"type": null,
-					"comment": {
-						"name": "Topic",
-						"description": null,
-						"require": [],
-						"test": "",
-						"todos": [],
-						"isGroup": true,
-						"hasAnnotation": true,
-						"reviewedBy": null
-					},
-					"comments": [
-						null,
-						{
-							"name": "Topic.setOffset",
-							"description": null,
-							"require": [],
-							"test": "",
-							"todos": {
-								"complete": false,
-								"value": null,
-								"assign": null,
-								"depth": 0,
-								"parent": null,
-								"children": [
-									{
-										"complete": true,
-										"value": "Change the start date",
-										"assign": null,
-										"depth": 1,
-										"children": []
-									},
-									{
-										"complete": true,
-										"value": "Change the duedate",
-										"assign": null,
-										"depth": 1,
-										"children": []
-									},
-									{
-										"complete": true,
-										"value": "Change the end date",
-										"assign": null,
-										"depth": 1,
-										"children": []
-									},
-									{
-										"complete": false,
-										"value": "Verify the date changes",
-										"assign": null,
-										"depth": 1,
-										"children": []
-									}
-								],
-								"name": "global"
-							},
-							"isGroup": false,
-							"hasAnnotation": true,
-							"reviewedBy": null
-						},
-						{
-							"name": "Topic.setStart",
-							"description": "Set the start date",
-							"require": [],
-							"test": "",
-							"todos": [],
-							"isGroup": false,
-							"hasAnnotation": true,
-							"reviewedBy": null
-						},
-						{
-							"name": "Topic.setEnd",
-							"description": "Set the end date",
-							"require": [],
-							"test": "",
-							"todos": [],
-							"isGroup": false,
-							"hasAnnotation": true,
-							"reviewedBy": null
-						},
-						{
-							"name": "Topic.setDueDate",
-							"description": "Set the due date",
-							"require": [],
-							"test": "",
-							"todos": {
-								"complete": false,
-								"value": null,
-								"assign": null,
-								"depth": 0,
-								"parent": null,
-								"children": [
-									{
-										"complete": true,
-										"value": "Set the duedate",
-										"assign": null,
-										"depth": 1,
-										"children": []
-									}
-								],
-								"name": "global"
-							},
-							"isGroup": false,
-							"hasAnnotation": true,
-							"reviewedBy": null
-						},
-						{
-							"name": null,
-							"description": "Checks if the topic has date",
-							"require": [],
-							"test": "",
-							"todos": [],
-							"isGroup": false,
-							"hasAnnotation": true,
-							"reviewedBy": null
-						},
-						{
-							"name": "Topic.save",
-							"description": null,
-							"require": [],
-							"test": "",
-							"todos": {
-								"complete": false,
-								"value": null,
-								"assign": null,
-								"depth": 0,
-								"parent": null,
-								"children": [
-									{
-										"complete": false,
-										"value": "Generate the appropriate post data",
-										"assign": null,
-										"depth": 1,
-										"children": []
-									},
-									{
-										"complete": false,
-										"value": "Post the data",
-										"assign": null,
-										"depth": 1,
-										"children": []
-									}
-								],
-								"name": "global"
-							},
-							"isGroup": false,
-							"hasAnnotation": true,
-							"reviewedBy": null
-						},
-						{
-							"name": "Topic.save.createDateProperties",
-							"description": null,
-							"require": [],
-							"test": "",
-							"todos": {
-								"complete": false,
-								"value": null,
-								"assign": null,
-								"depth": 0,
-								"parent": null,
-								"children": [
-									{
-										"complete": true,
-										"value": "  Set all the d2l variables",
-										"assign": null,
-										"depth": 1,
-										"children": []
-									}
-								],
-								"name": "global"
-							},
-							"isGroup": false,
-							"hasAnnotation": true,
-							"reviewedBy": null
-						},
-						{
-							"name": "Topic.save.createModuleProperties",
-							"description": null,
-							"require": [],
-							"test": "",
-							"todos": {
-								"complete": false,
-								"value": null,
-								"assign": null,
-								"depth": 0,
-								"parent": null,
-								"children": [
-									{
-										"complete": true,
-										"value": "  Set all the d2l variables",
-										"assign": null,
-										"depth": 1,
-										"children": []
-									}
-								],
-								"name": "global"
-							},
-							"isGroup": false,
-							"hasAnnotation": true,
-							"reviewedBy": null
-						},
-						{
-							"name": "Topic.save.createTopicProperties",
-							"description": null,
-							"require": [],
-							"test": "",
-							"todos": {
-								"complete": false,
-								"value": null,
-								"assign": null,
-								"depth": 0,
-								"parent": null,
-								"children": [
-									{
-										"complete": true,
-										"value": "  Set all the d2l variables",
-										"assign": null,
-										"depth": 1,
-										"children": []
-									}
-								],
-								"name": "global"
-							},
-							"isGroup": false,
-							"hasAnnotation": true,
-							"reviewedBy": null
-						},
-						{
-							"name": "Topic.save.getUrlType",
-							"description": null,
-							"require": [],
-							"test": "",
-							"todos": {
-								"complete": false,
-								"value": null,
-								"assign": null,
-								"depth": 0,
-								"parent": null,
-								"children": [
-									{
-										"complete": true,
-										"value": "  Set all the d2l variables",
-										"assign": null,
-										"depth": 1,
-										"children": []
-									}
-								],
-								"name": "global"
-							},
-							"isGroup": false,
-							"hasAnnotation": true,
-							"reviewedBy": null
-						},
-						{
-							"name": "Topic.save.createDateProperties",
-							"description": null,
-							"require": [],
-							"test": "",
-							"todos": {
-								"complete": false,
-								"value": null,
-								"assign": null,
-								"depth": 0,
-								"parent": null,
-								"children": [
-									{
-										"complete": true,
-										"value": "  Set all the d2l variables",
-										"assign": null,
-										"depth": 1,
-										"children": []
-									},
-									{
-										"complete": true,
-										"value": "  Set the url to the Topic",
-										"assign": null,
-										"depth": 1,
-										"children": []
-									}
-								],
-								"name": "global"
-							},
-							"isGroup": false,
-							"hasAnnotation": true,
-							"reviewedBy": null
-						}
-					],
-					"name": "object"
-				}
-			],
+			"children": [],
 			"parent": null,
 			"type": null,
 			"comment": null,
 			"comments": [
 				{
-					"name": null,
+					"name": "Topic.setOffset",
 					"description": null,
 					"require": [],
 					"test": "",
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [
+							{
+								"complete": true,
+								"value": "Change the start date",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							},
+							{
+								"complete": true,
+								"value": "Change the duedate",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							},
+							{
+								"complete": true,
+								"value": "Change the end date",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							},
+							{
+								"complete": true,
+								"value": "Verify the date changes",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							}
+						],
+						"name": "global"
+					},
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Topic.draw",
+					"description": "UPdate the dates",
+					"require": [],
+					"test": "",
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [
+							{
+								"complete": true,
+								"value": "Update the dates ",
+								"assign": "Chase",
+								"depth": 1,
+								"children": []
+							}
+						],
+						"name": "global"
+					},
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Topic.setChecked",
+					"description": null,
+					"require": [],
+					"test": "",
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [
+							{
+								"complete": true,
+								"value": "Set the checkmark",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							}
+						],
+						"name": "global"
+					},
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Topic.clearDates",
+					"description": "Clear the dates",
+					"require": [],
+					"test": "",
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [
+							{
+								"complete": true,
+								"value": "Clear all 3 dates",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							},
+							{
+								"complete": true,
+								"value": "update the UI",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							}
+						],
+						"name": "global"
+					},
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Topic.offsetByCal",
+					"description": null,
+					"require": [],
+					"test": "",
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [
+							{
+								"complete": true,
+								"value": "offset the date by day, month, year",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							}
+						],
+						"name": "global"
+					},
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Topic.setStart",
+					"description": "Set the start date",
+					"require": [],
+					"test": "",
 					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Topic.setEnd",
+					"description": "Set the end date",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Topic.setDueDate",
+					"description": "Set the due date",
+					"require": [],
+					"test": "",
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [
+							{
+								"complete": true,
+								"value": "Set the duedate",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							}
+						],
+						"name": "global"
+					},
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": null,
+					"description": "Checks if the topic has date",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Topic.issueWithDates",
+					"description": "Check if the dates conflict",
+					"require": [],
+					"test": "",
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [
+							{
+								"complete": true,
+								"value": "Check if the start date comes after the end or due date",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							},
+							{
+								"complete": true,
+								"value": "check if the due date comes after the end date",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							}
+						],
+						"name": "global"
+					},
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Topic.error",
+					"description": "Throw an error",
+					"require": [],
+					"test": "",
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [
+							{
+								"complete": true,
+								"value": "color the row and the cells",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							}
+						],
+						"name": "global"
+					},
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Topic.save",
+					"description": null,
+					"require": [],
+					"test": "",
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [
+							{
+								"complete": true,
+								"value": "Generate the appropriate post data",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							},
+							{
+								"complete": true,
+								"value": "Post the data",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							}
+						],
+						"name": "global"
+					},
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Topic.save.createDateProperties",
+					"description": null,
+					"require": [],
+					"test": "",
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [
+							{
+								"complete": true,
+								"value": "  Set all the d2l variables",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							}
+						],
+						"name": "global"
+					},
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Topic.save.createModuleProperties",
+					"description": null,
+					"require": [],
+					"test": "",
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [
+							{
+								"complete": true,
+								"value": "  Set all the d2l variables",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							}
+						],
+						"name": "global"
+					},
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Topic.save.createTopicProperties",
+					"description": null,
+					"require": [],
+					"test": "",
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [
+							{
+								"complete": true,
+								"value": "  Set all the d2l variables",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							}
+						],
+						"name": "global"
+					},
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Topic.save.getUrlType",
+					"description": null,
+					"require": [],
+					"test": "",
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [
+							{
+								"complete": true,
+								"value": "  Set all the d2l variables",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							}
+						],
+						"name": "global"
+					},
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Topic.save.createDateProperties",
+					"description": null,
+					"require": [],
+					"test": "",
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [
+							{
+								"complete": true,
+								"value": "  Set all the d2l variables",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							},
+							{
+								"complete": true,
+								"value": "  Set the url to the Topic",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							}
+						],
+						"name": "global"
+					},
 					"isGroup": false,
 					"hasAnnotation": true,
 					"reviewedBy": null
@@ -345,298 +516,280 @@
 	{
 		"path": "projects/duedateadjustment/src/topics.js",
 		"group": {
-			"children": [
-				{
-					"children": [],
-					"type": null,
-					"comment": {
-						"name": "Topics",
-						"description": null,
-						"require": [],
-						"test": "",
-						"todos": [],
-						"isGroup": true,
-						"hasAnnotation": true,
-						"reviewedBy": null
-					},
-					"comments": [
-						null,
-						{
-							"name": "Topics",
-							"description": null,
-							"require": [],
-							"test": "",
-							"todos": {
-								"complete": false,
-								"value": null,
-								"assign": null,
-								"depth": 0,
-								"parent": null,
-								"children": [
-									{
-										"complete": true,
-										"value": "Add a tick for async callback",
-										"assign": null,
-										"depth": 1,
-										"children": []
-									}
-								],
-								"name": "global"
-							},
-							"isGroup": false,
-							"hasAnnotation": true,
-							"reviewedBy": null
-						},
-						{
-							"name": "Topics.setCurrent",
-							"description": null,
-							"require": [],
-							"test": "",
-							"todos": {
-								"complete": false,
-								"value": null,
-								"assign": null,
-								"depth": 0,
-								"parent": null,
-								"children": [
-									{
-										"complete": true,
-										"value": "Set the check the current calls with the total then call callback",
-										"assign": null,
-										"depth": 1,
-										"children": []
-									}
-								],
-								"name": "global"
-							},
-							"isGroup": false,
-							"hasAnnotation": true,
-							"reviewedBy": null
-						},
-						{
-							"name": "Topics.getAll",
-							"description": null,
-							"require": [],
-							"test": "",
-							"todos": {
-								"complete": false,
-								"value": null,
-								"assign": null,
-								"depth": 0,
-								"parent": null,
-								"children": [
-									{
-										"complete": true,
-										"value": "Get all topics from the course",
-										"assign": null,
-										"depth": 1,
-										"children": []
-									},
-									{
-										"complete": true,
-										"value": "Load them async",
-										"assign": null,
-										"depth": 1,
-										"children": []
-									},
-									{
-										"complete": true,
-										"value": "Somehow return the result",
-										"assign": null,
-										"depth": 1,
-										"children": []
-									}
-								],
-								"name": "global"
-							},
-							"isGroup": false,
-							"hasAnnotation": true,
-							"reviewedBy": null
-						},
-						{
-							"name": "Topics._getModule",
-							"description": null,
-							"require": [],
-							"test": "",
-							"todos": {
-								"complete": false,
-								"value": null,
-								"assign": null,
-								"depth": 0,
-								"parent": null,
-								"children": [
-									{
-										"complete": true,
-										"value": "Loop through the modules and get the sub topics and modules",
-										"assign": null,
-										"depth": 1,
-										"children": []
-									}
-								],
-								"name": "global"
-							},
-							"isGroup": false,
-							"hasAnnotation": true,
-							"reviewedBy": null
-						},
-						{
-							"name": "Topics._getTopic",
-							"description": null,
-							"require": [],
-							"test": "",
-							"todos": {
-								"complete": false,
-								"value": null,
-								"assign": null,
-								"depth": 0,
-								"parent": null,
-								"children": [
-									{
-										"complete": true,
-										"value": "Set a new topic",
-										"assign": null,
-										"depth": 1,
-										"children": []
-									},
-									{
-										"complete": true,
-										"value": "Store both topics that should be kept and those that shouldn't",
-										"assign": null,
-										"depth": 1,
-										"children": []
-									}
-								],
-								"name": "global"
-							},
-							"isGroup": false,
-							"hasAnnotation": true,
-							"reviewedBy": null
-						},
-						{
-							"name": "Topics.offsetAll",
-							"description": null,
-							"require": [],
-							"test": "",
-							"todos": {
-								"complete": false,
-								"value": null,
-								"assign": null,
-								"depth": 0,
-								"parent": null,
-								"children": [
-									{
-										"complete": true,
-										"value": "Copy the old code from the _hidden file",
-										"assign": null,
-										"depth": 1,
-										"children": []
-									},
-									{
-										"complete": false,
-										"value": "Verify the offset",
-										"assign": null,
-										"depth": 1,
-										"children": []
-									},
-									{
-										"complete": true,
-										"value": "Change only the ones that need change",
-										"assign": null,
-										"depth": 1,
-										"children": []
-									}
-								],
-								"name": "global"
-							},
-							"isGroup": false,
-							"hasAnnotation": true,
-							"reviewedBy": null
-						},
-						{
-							"name": "Topics.getModules",
-							"description": null,
-							"require": [],
-							"test": "",
-							"todos": {
-								"complete": false,
-								"value": null,
-								"assign": null,
-								"depth": 0,
-								"parent": null,
-								"children": [
-									{
-										"complete": true,
-										"value": "Search through the items or noKeep items to find modules",
-										"assign": null,
-										"depth": 1,
-										"children": []
-									}
-								],
-								"name": "global"
-							},
-							"isGroup": false,
-							"hasAnnotation": true,
-							"reviewedBy": null
-						},
-						{
-							"name": "Topics.render",
-							"description": null,
-							"require": [],
-							"test": "",
-							"todos": {
-								"complete": false,
-								"value": null,
-								"assign": null,
-								"depth": 0,
-								"parent": null,
-								"children": [
-									{
-										"complete": true,
-										"value": "Render the html table",
-										"assign": null,
-										"depth": 1,
-										"children": []
-									},
-									{
-										"complete": true,
-										"value": "Set the single change callback",
-										"assign": null,
-										"depth": 1,
-										"children": []
-									},
-									{
-										"complete": true,
-										"value": "Set the completion callback",
-										"assign": null,
-										"depth": 1,
-										"children": []
-									}
-								],
-								"name": "global"
-							},
-							"isGroup": false,
-							"hasAnnotation": true,
-							"reviewedBy": null
-						}
-					],
-					"name": "object"
-				}
-			],
-			"parent": null,
+			"children": [],
+			"parent": {
+				"children": [
+					null
+				],
+				"parent": null,
+				"type": null,
+				"comment": null,
+				"comments": []
+			},
 			"type": null,
-			"comment": null,
+			"comment": {
+				"name": "Topics",
+				"description": null,
+				"require": [],
+				"test": "",
+				"todos": [],
+				"isGroup": true,
+				"hasAnnotation": true,
+				"reviewedBy": null
+			},
 			"comments": [
+				null,
 				{
-					"name": null,
+					"name": "Topics",
 					"description": null,
 					"require": [],
 					"test": "",
-					"todos": [],
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [
+							{
+								"complete": true,
+								"value": "Add a tick for async callback",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							}
+						],
+						"name": "global"
+					},
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Topics.setCurrent",
+					"description": null,
+					"require": [],
+					"test": "",
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [
+							{
+								"complete": true,
+								"value": "Set the check the current calls with the total then call callback",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							}
+						],
+						"name": "global"
+					},
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Topics.uiOffsetActiveDates",
+					"description": "Offset the active dates",
+					"require": [],
+					"test": "",
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [
+							{
+								"complete": true,
+								"value": "Update the UI ",
+								"assign": "Chase",
+								"depth": 1,
+								"children": []
+							},
+							{
+								"complete": true,
+								"value": "Offset only the toggled on dates ",
+								"assign": "Chase",
+								"depth": 1,
+								"children": []
+							},
+							{
+								"complete": true,
+								"value": "Update the Topic object ",
+								"assign": "Chase",
+								"depth": 1,
+								"children": []
+							}
+						],
+						"name": "global"
+					},
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null,
+					"assign": "Chase"
+				},
+				{
+					"name": "Topics.getToggled",
+					"description": "returns the toggled dates",
+					"require": [],
+					"test": "",
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [
+							{
+								"complete": false,
+								"value": "Return the toggled dates ",
+								"assign": "Chase",
+								"depth": 1,
+								"children": []
+							}
+						],
+						"name": "global"
+					},
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Topics.getDropboxByName",
+					"description": "See the title",
+					"require": [],
+					"test": "",
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [
+							{
+								"complete": true,
+								"value": "Go through the dropboxes and find the one matching the name",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							}
+						],
+						"name": "global"
+					},
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Topics.getQuizByName",
+					"description": "A quick and dirty way to get the quiz ids",
+					"require": [],
+					"test": "",
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [
+							{
+								"complete": true,
+								"value": "loop through and find the matching quiz",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							}
+						],
+						"name": "global"
+					},
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Topics.getSurveyByName",
+					"description": "A quick and dirty way to get the survey ids",
+					"require": [],
+					"test": "",
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [
+							{
+								"complete": true,
+								"value": "loop through and find the matching survey",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							}
+						],
+						"name": "global"
+					},
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Topics.getDiscussionByName",
+					"description": "A quick and dirty way to get the discussion ids",
+					"require": [],
+					"test": "",
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [
+							{
+								"complete": true,
+								"value": "loop through and find the matching discussion",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							}
+						],
+						"name": "global"
+					},
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Topics.getChecklistByName",
+					"description": "A quick and dirty way to get the discussion ids",
+					"require": [],
+					"test": "",
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [
+							{
+								"complete": true,
+								"value": "loop through and find the matching discussion",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							}
+						],
+						"name": "global"
+					},
 					"isGroup": false,
 					"hasAnnotation": true,
 					"reviewedBy": null
 				}
-			]
+			],
+			"name": "object"
 		}
 	},
 	{
@@ -683,6 +836,33 @@
 							"isGroup": false,
 							"hasAnnotation": true,
 							"reviewedBy": null
+						},
+						{
+							"name": "Table.offsetDates",
+							"description": null,
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "API call to the topics prototype function",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null,
+							"assign": "Chase"
 						},
 						{
 							"name": null,
@@ -733,145 +913,6 @@
 	},
 	{
 		"path": "projects/duedateadjustment/src/valence.js",
-		"group": {
-			"children": [
-				{
-					"children": [],
-					"type": null,
-					"comment": {
-						"name": "Valence",
-						"description": "A lightweight api collection for Valence",
-						"require": [],
-						"test": "",
-						"todos": [],
-						"isGroup": true,
-						"hasAnnotation": true,
-						"reviewedBy": null
-					},
-					"comments": [
-						null,
-						{
-							"name": "valence",
-							"description": null,
-							"require": [],
-							"test": "assert(!!valence, \"Invalid valence object\");",
-							"todos": [],
-							"isGroup": false,
-							"hasAnnotation": true,
-							"reviewedBy": null
-						},
-						{
-							"name": "valence.call.error",
-							"description": null,
-							"require": [],
-							"test": "",
-							"todos": {
-								"complete": false,
-								"value": null,
-								"assign": null,
-								"depth": 0,
-								"parent": null,
-								"children": [
-									{
-										"complete": false,
-										"value": "            Provide better error handling",
-										"assign": null,
-										"depth": 1,
-										"children": []
-									}
-								],
-								"name": "global"
-							},
-							"isGroup": false,
-							"hasAnnotation": true,
-							"reviewedBy": null,
-							"assign": "Chase"
-						},
-						{
-							"name": "valence.get",
-							"description": null,
-							"require": [],
-							"test": "",
-							"todos": {
-								"complete": false,
-								"value": null,
-								"assign": null,
-								"depth": 0,
-								"parent": null,
-								"children": [
-									{
-										"complete": false,
-										"value": "    What if the apis upgrade from 1.4 to 1.5? ",
-										"assign": "Chase",
-										"depth": 1,
-										"children": []
-									}
-								],
-								"name": "global"
-							},
-							"isGroup": false,
-							"hasAnnotation": true,
-							"reviewedBy": null
-						},
-						{
-							"name": "valence.post",
-							"description": null,
-							"require": [],
-							"test": "",
-							"todos": {
-								"complete": false,
-								"value": null,
-								"assign": null,
-								"depth": 0,
-								"parent": null,
-								"children": [
-									{
-										"complete": false,
-										"value": "    Verify if this is needed",
-										"assign": null,
-										"depth": 1,
-										"children": []
-									},
-									{
-										"complete": false,
-										"value": "    Complete the function",
-										"assign": null,
-										"depth": 1,
-										"children": []
-									},
-									{
-										"complete": false,
-										"value": "    Remove if not needed",
-										"assign": null,
-										"depth": 1,
-										"children": []
-									}
-								],
-								"name": "global"
-							},
-							"isGroup": false,
-							"hasAnnotation": true,
-							"reviewedBy": null
-						}
-					],
-					"name": "object"
-				}
-			],
-			"parent": null,
-			"type": null,
-			"comment": null,
-			"comments": [
-				{
-					"name": null,
-					"description": null,
-					"require": [],
-					"test": "",
-					"todos": [],
-					"isGroup": false,
-					"hasAnnotation": true,
-					"reviewedBy": null
-				}
-			]
-		}
+		"group": null
 	}
 ]

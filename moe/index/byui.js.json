@@ -146,60 +146,7 @@
 			"parent": null,
 			"type": null,
 			"comment": null,
-			"comments": [
-				{
-					"name": "byui().remove()",
-					"description": null,
-					"require": [],
-					"test": "assert(byui([1, 2, 3, 4, 5]).remove(1).val().length == 4, \"The array remove didnt work\");",
-					"todos": {
-						"complete": false,
-						"value": null,
-						"assign": null,
-						"depth": 0,
-						"parent": null,
-						"children": [
-							{
-								"complete": true,
-								"value": "remove item from an array",
-								"assign": null,
-								"depth": 1,
-								"children": []
-							}
-						],
-						"name": "global"
-					},
-					"isGroup": false,
-					"hasAnnotation": true,
-					"reviewedBy": null
-				},
-				{
-					"name": "byui().exists()",
-					"description": null,
-					"require": [],
-					"test": "var a = byui('test');assert(a.exists('est'), \"Invalid string exists\");",
-					"todos": {
-						"complete": false,
-						"value": null,
-						"assign": null,
-						"depth": 0,
-						"parent": null,
-						"children": [
-							{
-								"complete": true,
-								"value": "find if an item exists in an array or whatever",
-								"assign": null,
-								"depth": 1,
-								"children": []
-							}
-						],
-						"name": "global"
-					},
-					"isGroup": false,
-					"hasAnnotation": true,
-					"reviewedBy": null
-				}
-			]
+			"comments": []
 		}
 	},
 	{
@@ -239,34 +186,7 @@
 			"parent": null,
 			"type": null,
 			"comment": null,
-			"comments": [
-				{
-					"name": "byui().keys()",
-					"description": null,
-					"require": [],
-					"test": "assert(byui({a: 'test'}).keys().length == 1, \"byui().keys() invalid value\");",
-					"todos": {
-						"complete": false,
-						"value": null,
-						"assign": null,
-						"depth": 0,
-						"parent": null,
-						"children": [
-							{
-								"complete": true,
-								"value": "Get the keys from the object",
-								"assign": null,
-								"depth": 1,
-								"children": []
-							}
-						],
-						"name": "global"
-					},
-					"isGroup": false,
-					"hasAnnotation": true,
-					"reviewedBy": null
-				}
-			]
+			"comments": []
 		}
 	},
 	{
@@ -276,34 +196,7 @@
 			"parent": null,
 			"type": null,
 			"comment": null,
-			"comments": [
-				{
-					"name": "byui().asEmail()",
-					"description": null,
-					"require": [],
-					"test": "assert(byui('willdenc').asEmail('byui.edu') == 'willdenc@byui.edu', \"Invalid email, found: \" + byui('willdenc').asEmail('byui.edu'));",
-					"todos": {
-						"complete": false,
-						"value": null,
-						"assign": null,
-						"depth": 0,
-						"parent": null,
-						"children": [
-							{
-								"complete": true,
-								"value": "append @byui.edu",
-								"assign": null,
-								"depth": 1,
-								"children": []
-							}
-						],
-						"name": "global"
-					},
-					"isGroup": false,
-					"hasAnnotation": true,
-					"reviewedBy": null
-				}
-			]
+			"comments": []
 		}
 	},
 	{
@@ -323,34 +216,7 @@
 			"parent": null,
 			"type": null,
 			"comment": null,
-			"comments": [
-				{
-					"name": "byui().save()",
-					"description": null,
-					"require": [],
-					"test": "byui('test').save('test');assert(byui.get('test').val() == 'test', \"Global variable isn't working\");",
-					"todos": {
-						"complete": false,
-						"value": null,
-						"assign": null,
-						"depth": 0,
-						"parent": null,
-						"children": [
-							{
-								"complete": true,
-								"value": "save variable to the global space",
-								"assign": null,
-								"depth": 1,
-								"children": []
-							}
-						],
-						"name": "global"
-					},
-					"isGroup": false,
-					"hasAnnotation": true,
-					"reviewedBy": null
-				}
-			]
+			"comments": []
 		}
 	},
 	{
@@ -360,34 +226,7 @@
 			"parent": null,
 			"type": null,
 			"comment": null,
-			"comments": [
-				{
-					"name": "byui().encodeXml()",
-					"description": null,
-					"require": [],
-					"test": "assert(byui(\"<>&\").encodeXml().val() == '&lt;&gt;&amp;', 'encodeXml failed');",
-					"todos": {
-						"complete": false,
-						"value": null,
-						"assign": null,
-						"depth": 0,
-						"parent": null,
-						"children": [
-							{
-								"complete": true,
-								"value": "If the type is a string, replace the xml symbols",
-								"assign": null,
-								"depth": 1,
-								"children": []
-							}
-						],
-						"name": "global"
-					},
-					"isGroup": false,
-					"hasAnnotation": true,
-					"reviewedBy": null
-				}
-			]
+			"comments": []
 		}
 	},
 	{
