@@ -20,106 +20,6 @@
 		}
 	},
 	{
-		"path": "projects/byui.js/old/LICENSE",
-		"group": {
-			"children": [],
-			"parent": null,
-			"type": null,
-			"comment": null,
-			"comments": []
-		}
-	},
-	{
-		"path": "projects/byui.js/old/core/compile.js",
-		"group": {
-			"children": [],
-			"parent": null,
-			"type": null,
-			"comment": null,
-			"comments": []
-		}
-	},
-	{
-		"path": "projects/byui.js/old/core/core.js",
-		"group": {
-			"children": [],
-			"parent": null,
-			"type": null,
-			"comment": null,
-			"comments": []
-		}
-	},
-	{
-		"path": "projects/byui.js/old/core/excel/core.js",
-		"group": {
-			"children": [],
-			"parent": null,
-			"type": null,
-			"comment": null,
-			"comments": []
-		}
-	},
-	{
-		"path": "projects/byui.js/old/core/globals.js",
-		"group": {
-			"children": [],
-			"parent": null,
-			"type": null,
-			"comment": null,
-			"comments": []
-		}
-	},
-	{
-		"path": "projects/byui.js/old/core/lib.js",
-		"group": {
-			"children": [],
-			"parent": null,
-			"type": null,
-			"comment": null,
-			"comments": []
-		}
-	},
-	{
-		"path": "projects/byui.js/old/core/types.js",
-		"group": {
-			"children": [],
-			"parent": null,
-			"type": null,
-			"comment": null,
-			"comments": []
-		}
-	},
-	{
-		"path": "projects/byui.js/old/core/url/params.js",
-		"group": {
-			"children": [],
-			"parent": null,
-			"type": null,
-			"comment": null,
-			"comments": []
-		}
-	},
-	{
-		"path": "projects/byui.js/old/core/xml/node.js",
-		"group": {
-			"children": [],
-			"parent": null,
-			"type": null,
-			"comment": null,
-			"comments": []
-		}
-	},
-	{
-		"path": "projects/byui.js/old/index.html",
-		"group": {
-			"children": [],
-			"parent": null,
-			"type": null,
-			"comment": null,
-			"comments": []
-		}
-	},
-	{
 		"path": "projects/byui.js/package.json",
 		"group": {
 			"children": [],
@@ -141,6 +41,16 @@
 	},
 	{
 		"path": "projects/byui.js/src/array.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/byui.js/src/client.js",
 		"group": {
 			"children": [],
 			"parent": null,
@@ -191,6 +101,16 @@
 	},
 	{
 		"path": "projects/byui.js/src/string.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/byui.js/src/thread.js",
 		"group": {
 			"children": [],
 			"parent": null,

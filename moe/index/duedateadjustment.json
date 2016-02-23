@@ -10,6 +10,282 @@
 		}
 	},
 	{
+		"path": "projects/duedateadjustment/new/init.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/duedateadjustment/new/item.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": [
+				{
+					"name": "Topic.save.createDateProperties",
+					"description": null,
+					"require": [],
+					"test": "",
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [
+							{
+								"complete": true,
+								"value": "  Set all the d2l variables",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							}
+						],
+						"name": "global"
+					},
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Topic.save.createModuleProperties",
+					"description": null,
+					"require": [],
+					"test": "",
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [
+							{
+								"complete": true,
+								"value": "  Set all the d2l variables",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							}
+						],
+						"name": "global"
+					},
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Topic.save.createTopicProperties",
+					"description": null,
+					"require": [],
+					"test": "",
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [
+							{
+								"complete": true,
+								"value": "  Set all the d2l variables",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							}
+						],
+						"name": "global"
+					},
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Topic.save.createDateProperties",
+					"description": null,
+					"require": [],
+					"test": "",
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [
+							{
+								"complete": true,
+								"value": "  Set all the d2l variables",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							},
+							{
+								"complete": true,
+								"value": "  Set the url to the Topic",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							}
+						],
+						"name": "global"
+					},
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				}
+			]
+		}
+	},
+	{
+		"path": "projects/duedateadjustment/new/items.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/duedateadjustment/new/lib/byui.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/duedateadjustment/new/lib/filter.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/duedateadjustment/new/lib/moment.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/duedateadjustment/new/lib/picker.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/duedateadjustment/new/lib/tablesort.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/duedateadjustment/new/table.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": [
+				{
+					"name": "Table.offsetDates",
+					"description": null,
+					"require": [],
+					"test": "",
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [
+							{
+								"complete": true,
+								"value": "API call to the topics prototype function",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							}
+						],
+						"name": "global"
+					},
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null,
+					"assign": "Chase"
+				},
+				{
+					"name": null,
+					"description": null,
+					"require": [],
+					"test": "",
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [
+							{
+								"complete": true,
+								"value": "Set the callbacks to a local public variable",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							}
+						],
+						"name": "global"
+					},
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				}
+			]
+		}
+	},
+	{
+		"path": "projects/duedateadjustment/new/ui.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/duedateadjustment/new/valence.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
 		"path": "projects/duedateadjustment/package.json",
 		"group": {
 			"children": [],
@@ -784,6 +1060,16 @@
 						],
 						"name": "global"
 					},
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "Topics.setToolItems",
+					"description": null,
+					"require": [],
+					"test": "",
+					"todos": [],
 					"isGroup": false,
 					"hasAnnotation": true,
 					"reviewedBy": null

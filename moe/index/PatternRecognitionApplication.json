@@ -1,0 +1,52 @@
+[
+	{
+		"path": "projects/PatternRecognitionApplication/Gruntfile.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/PatternRecognitionApplication/package.json",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/PatternRecognitionApplication/src/string/analyze.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/PatternRecognitionApplication/src/string/case.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/PatternRecognitionApplication/src/string/init.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	}
+]

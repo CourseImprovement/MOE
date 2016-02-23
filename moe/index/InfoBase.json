@@ -1,0 +1,2974 @@
+[
+	{
+		"path": "projects/InfoBase/bower_components/jquery/.bower.json",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/.jscsrc",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/.jshintignore",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/.jshintrc",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/Gruntfile.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/dist/jquery.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/dist/jquery.min.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/external/npo/npo.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/external/qunit/qunit.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": [
+				{
+					"name": "ok",
+					"description": null,
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "equal",
+					"description": null,
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "notEqual",
+					"description": null,
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "propEqual",
+					"description": null,
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "notPropEqual",
+					"description": null,
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "deepEqual",
+					"description": null,
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "notDeepEqual",
+					"description": null,
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "strictEqual",
+					"description": null,
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "notStrictEqual",
+					"description": null,
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				}
+			]
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/external/qunit-assert-step/qunit-assert-step.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/external/requirejs/require.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/external/sinon/sinon-1.14.1.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": [
+				{
+					"name": "samsam.isArguments",
+					"description": null,
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "samsam.isElement",
+					"description": null,
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "samsam.keys",
+					"description": null,
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "samsam.isDate",
+					"description": null,
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "samsam.isNegZero",
+					"description": null,
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "samsam.equal",
+					"description": null,
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "samsam.deepEqual",
+					"description": null,
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "samsam.match",
+					"description": null,
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				}
+			]
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/external/sizzle/dist/sizzle.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/external/sizzle/dist/sizzle.min.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/package.json",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/.jshintrc",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/ajax/jsonp.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/ajax/load.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/ajax/parseJSON.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/ajax/parseXML.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/ajax/script.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/ajax/var/location.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/ajax/var/nonce.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/ajax/var/rquery.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/ajax/xhr.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/ajax.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/attributes/attr.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/attributes/classes.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/attributes/prop.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/attributes/support.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/attributes/val.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/attributes.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/callbacks.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/core/access.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/core/init.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/core/parseHTML.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/core/ready.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/core/support.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/core/var/rsingleTag.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/core.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/css/addGetHookIf.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/css/adjustCSS.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/css/curCSS.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/css/defaultDisplay.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/css/hiddenVisibleSelectors.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/css/showHide.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/css/support.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/css/var/cssExpand.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/css/var/getStyles.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/css/var/isHidden.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/css/var/rmargin.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/css/var/rnumnonpx.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/css/var/swap.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/css.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/data/Data.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/data/var/acceptData.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/data/var/dataPriv.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/data/var/dataUser.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/data.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/deferred.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/deprecated.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/dimensions.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/effects/Tween.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/effects/animatedSelector.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/effects.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/event/ajax.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/event/alias.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/event/focusin.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/event/support.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/event/trigger.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/event.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/exports/amd.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/exports/global.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/intro.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/jquery.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/manipulation/_evalUrl.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/manipulation/getAll.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/manipulation/setGlobalEval.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/manipulation/support.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/manipulation/var/rcheckableType.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/manipulation/var/rscriptType.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/manipulation/var/rtagName.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/manipulation/wrapMap.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/manipulation.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/offset.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/outro.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/queue/delay.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/queue.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/selector-native.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/selector-sizzle.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/selector.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/serialize.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/traversing/findFilter.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/traversing/var/dir.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/traversing/var/rneedsContext.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/traversing/var/siblings.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/traversing.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/var/arr.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/var/class2type.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/var/concat.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/var/document.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/var/documentElement.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/var/hasOwn.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/var/indexOf.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/var/pnum.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/var/push.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/var/rcssNum.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/var/rnotwhite.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/var/slice.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/var/support.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/var/toString.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/src/wrap.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/.jshintrc",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/data/badcall.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/data/badjson.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/data/jquery-1.9.1.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/data/json_obj.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/data/readywaitasset.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/data/readywaitloader.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/data/support/csp.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/data/support/getComputedSupport.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/data/testinit.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/data/testrunner.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/integration/data/gh-1764-fullscreen.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/jquery.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/node_smoke_tests/.jshintrc",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/node_smoke_tests/document_missing.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/node_smoke_tests/document_passed.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/node_smoke_tests/document_present_originally.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/node_smoke_tests/iterable_with_native_symbol.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/node_smoke_tests/iterable_with_symbol_polyfill.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/node_smoke_tests/lib/ensure_global_not_created.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/node_smoke_tests/lib/ensure_iterability_es6.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/node_smoke_tests/lib/ensure_jquery.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/promises_aplus_adapter.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/unit/ajax.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/unit/attributes.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/unit/basic.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/unit/callbacks.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/unit/core.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/unit/css.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/unit/data.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/unit/deferred.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/unit/deprecated.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/unit/dimensions.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/unit/effects.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/unit/event.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/unit/exports.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/unit/manipulation.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/unit/offset.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/unit/queue.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/unit/ready.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/unit/selector.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/unit/serialize.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/unit/support.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/unit/traversing.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/jquery/test/unit/wrap.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/.bower.json",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/.csscomb.json",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/.jshintrc",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/bower.json",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/composer.json",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/accordion.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/accordion.min.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/api.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/api.min.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/checkbox.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/checkbox.min.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/colorize.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/colorize.min.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/dimmer.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/dimmer.min.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/dropdown.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/dropdown.min.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/embed.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/embed.min.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/form.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/form.min.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/modal.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/modal.min.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/nag.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/nag.min.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/popup.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/popup.min.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/progress.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/progress.min.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/rating.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/rating.min.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/search.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/search.min.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/shape.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/shape.min.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/sidebar.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/sidebar.min.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/site.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/site.min.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/state.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/state.min.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/sticky.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/sticky.min.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/tab.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/tab.min.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/transition.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/transition.min.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/video.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/video.min.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/visibility.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/visibility.min.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/visit.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/components/visit.min.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/semantic.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/dist/semantic.min.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/examples/assets/library/iframe-content.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/examples/assets/library/iframe.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/examples/assets/library/jquery.min.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/examples/assets/show-examples.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/gulpfile.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/karma.conf.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/package.json",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/semantic.json.example",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/src/definitions/behaviors/api.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/src/definitions/behaviors/colorize.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/src/definitions/behaviors/form.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/src/definitions/behaviors/state.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/src/definitions/behaviors/visibility.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/src/definitions/behaviors/visit.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/src/definitions/globals/site.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/src/definitions/modules/accordion.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/src/definitions/modules/checkbox.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/src/definitions/modules/dimmer.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/src/definitions/modules/dropdown.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/src/definitions/modules/embed.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/src/definitions/modules/modal.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/src/definitions/modules/nag.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/src/definitions/modules/popup.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/src/definitions/modules/progress.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/src/definitions/modules/rating.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/src/definitions/modules/search.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/src/definitions/modules/shape.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/src/definitions/modules/sidebar.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/src/definitions/modules/sticky.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/src/definitions/modules/tab.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/src/definitions/modules/transition.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/tasks/admin/components/create.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/tasks/admin/components/init.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/tasks/admin/components/update.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/tasks/admin/distributions/create.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/tasks/admin/distributions/init.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/tasks/admin/distributions/update.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/tasks/admin/publish.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/tasks/admin/register.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/tasks/admin/release.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/tasks/check-install.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/tasks/clean.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/tasks/collections/admin.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/tasks/collections/internal.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/tasks/collections/rtl.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/tasks/config/admin/github.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/tasks/config/admin/oauth.example.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/tasks/config/admin/release.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/tasks/config/admin/templates/bower.json",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/tasks/config/admin/templates/component-package.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/tasks/config/admin/templates/composer.json",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/tasks/config/admin/templates/css-package.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/tasks/config/admin/templates/less-package.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/tasks/config/admin/templates/package.json",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/tasks/config/defaults.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/tasks/config/docs.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/tasks/config/npm/gulpfile.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/tasks/config/project/config.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/tasks/config/project/install.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/tasks/config/project/release.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/tasks/config/tasks.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/tasks/config/user.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/tasks/docs/metadata.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/tasks/docs/serve.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/tasks/install.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/tasks/rtl/watch.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/tasks/version.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/InfoBase/bower_components/semantic-ui/tasks/watch.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	}
+]

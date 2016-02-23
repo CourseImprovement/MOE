@@ -1,0 +1,42 @@
+[
+	{
+		"path": "projects/HTML-Query/Gruntfile.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/HTML-Query/package.json",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/HTML-Query/src/ctrl.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/HTML-Query/src/unzip.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	}
+]

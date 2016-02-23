@@ -1,0 +1,192 @@
+[
+	{
+		"path": "projects/HigherEdKnowledgeGraph/NodeToNode/js/node.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/HigherEdKnowledgeGraph/Specs/Design/js/ctrl.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/HigherEdKnowledgeGraph/www/composer.json",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/HigherEdKnowledgeGraph/www/static/js/ctrl.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/HigherEdKnowledgeGraph/www/vendor/composer/installed.json",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/HigherEdKnowledgeGraph/www/vendor/everyman/neo4jphp/composer.json",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/HigherEdKnowledgeGraph/www/vendor/ircmaxell/password-compat/composer.json",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/HigherEdKnowledgeGraph/www/vendor/pimple/pimple/composer.json",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/HigherEdKnowledgeGraph/www/vendor/psr/log/composer.json",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/HigherEdKnowledgeGraph/www/vendor/silex/silex/bin/skeleton/fat_composer.json",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/HigherEdKnowledgeGraph/www/vendor/silex/silex/bin/skeleton/slim_composer.json",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/HigherEdKnowledgeGraph/www/vendor/silex/silex/composer.json",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/HigherEdKnowledgeGraph/www/vendor/symfony/debug/composer.json",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/HigherEdKnowledgeGraph/www/vendor/symfony/event-dispatcher/composer.json",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/HigherEdKnowledgeGraph/www/vendor/symfony/http-foundation/composer.json",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/HigherEdKnowledgeGraph/www/vendor/symfony/http-kernel/composer.json",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/HigherEdKnowledgeGraph/www/vendor/symfony/polyfill-php54/composer.json",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/HigherEdKnowledgeGraph/www/vendor/symfony/polyfill-php55/composer.json",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
+		"path": "projects/HigherEdKnowledgeGraph/www/vendor/symfony/routing/composer.json",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	}
+]

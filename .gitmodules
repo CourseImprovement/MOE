@@ -10,3 +10,9 @@
 [submodule "web/lib/semantic-ui"]
 	path = web/lib/semantic-ui
 	url = https://github.com/semantic-org/semantic-ui/
+[submodule "projects/PatternRecognitionApplication"]
+	path = projects/PatternRecognitionApplication
+	url = https://github.com/CourseImprovement/PatternRecognitionApplication.git
+[submodule "projects/HTML-Query"]
+	path = projects/HTML-Query
+	url = https://github.com/CourseImprovement/HTML-Query.git

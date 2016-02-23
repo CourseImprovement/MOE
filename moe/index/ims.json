@@ -70,6 +70,16 @@
 		}
 	},
 	{
+		"path": "projects/ims/src/admin/Permissions.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": []
+		}
+	},
+	{
 		"path": "projects/ims/src/admin/answer.js",
 		"group": {
 			"children": [
@@ -367,6 +377,33 @@
 							"assign": "Chase and Grant"
 						},
 						{
+							"name": "addEvaluation",
+							"description": "Add and evaluation to the config file. Remove and add if the evaluation already exists.",
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "complete",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null,
+							"assign": "Grant"
+						},
+						{
 							"name": "newSurvey",
 							"description": "Creates a new survey and returns it",
 							"require": [],
@@ -607,6 +644,33 @@
 							"hasAnnotation": true,
 							"reviewedBy": null,
 							"assign": "Chase and Grant"
+						},
+						{
+							"name": "removeEvaluation",
+							"description": "Remove an evaluation from the config file",
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "complete",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null,
+							"assign": "Grant"
 						},
 						{
 							"name": "findSurvey",
@@ -1254,14 +1318,14 @@
 								"parent": null,
 								"children": [
 									{
-										"complete": false,
+										"complete": true,
 										"value": "Check that the proper characters have been encoded",
 										"assign": null,
 										"depth": 1,
 										"children": []
 									},
 									{
-										"complete": false,
+										"complete": true,
 										"value": "Save the file",
 										"assign": null,
 										"depth": 1,
@@ -1301,1070 +1365,7 @@
 		"group": {
 			"children": [
 				{
-					"children": [
-						{
-							"children": [],
-							"type": null,
-							"comment": {
-								"name": null,
-								"description": null,
-								"require": [],
-								"test": "",
-								"todos": [],
-								"isGroup": true,
-								"hasAnnotation": true,
-								"reviewedBy": null
-							},
-							"comments": [
-								null,
-								{
-									"name": "reset",
-									"description": "Reset all variables",
-									"require": [],
-									"test": "",
-									"todos": {
-										"complete": false,
-										"value": null,
-										"assign": null,
-										"depth": 0,
-										"parent": null,
-										"children": [
-											{
-												"complete": true,
-												"value": "\tsurveyName, surveyWeek, and Placement to empty strings",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											},
-											{
-												"complete": true,
-												"value": "\tfile and surveyId to null",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											},
-											{
-												"complete": true,
-												"value": "\tevalustions and editingQuestion to an empty object",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											},
-											{
-												"complete": true,
-												"value": "\tisFile to false",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											}
-										],
-										"name": "global"
-									},
-									"isGroup": false,
-									"hasAnnotation": true,
-									"reviewedBy": null,
-									"assign": "Chase and Grant"
-								},
-								{
-									"name": "changeMode",
-									"description": "Changes the webpages",
-									"require": [],
-									"test": "",
-									"todos": {
-										"complete": false,
-										"value": null,
-										"assign": null,
-										"depth": 0,
-										"parent": null,
-										"children": [
-											{
-												"complete": true,
-												"value": "\tAssign the mode a value to change the web page",
-												"assign": null,
-												"depth": 1,
-												"children": [
-													{
-														"complete": true,
-														"value": "\tif Register or Process reset the surveys",
-														"assign": null,
-														"depth": 2,
-														"children": []
-													},
-													{
-														"complete": true,
-														"value": "\tif home reset all variables",
-														"assign": null,
-														"depth": 2,
-														"children": []
-													}
-												]
-											}
-										],
-										"name": "global"
-									},
-									"isGroup": false,
-									"hasAnnotation": true,
-									"reviewedBy": null,
-									"assign": "Chase and Grant"
-								}
-							],
-							"name": "menu"
-						},
-						{
-							"children": [],
-							"type": null,
-							"comment": {
-								"name": null,
-								"description": null,
-								"require": [],
-								"test": "",
-								"todos": [],
-								"isGroup": true,
-								"hasAnnotation": true,
-								"reviewedBy": null
-							},
-							"comments": [
-								null,
-								{
-									"name": "checkPermissions",
-									"description": "Check permissions",
-									"require": [],
-									"test": "",
-									"todos": [],
-									"isGroup": false,
-									"hasAnnotation": true,
-									"reviewedBy": null,
-									"assign": "Chase and Grant"
-								},
-								{
-									"name": "permissions",
-									"description": "Alerts the user to the percentage completed",
-									"require": [],
-									"test": "",
-									"todos": [],
-									"isGroup": false,
-									"hasAnnotation": true,
-									"reviewedBy": null,
-									"assign": "Chase and Grant"
-								}
-							],
-							"name": "permissions"
-						},
-						{
-							"children": [],
-							"type": null,
-							"comment": {
-								"name": null,
-								"description": null,
-								"require": [],
-								"test": "",
-								"todos": [],
-								"isGroup": true,
-								"hasAnnotation": true,
-								"reviewedBy": null
-							},
-							"comments": [
-								null,
-								{
-									"name": "arrayOfColumns",
-									"description": "Gets the columns in forms A;B;C;D or A-D or A-D;E",
-									"require": [],
-									"test": "",
-									"todos": {
-										"complete": false,
-										"value": null,
-										"assign": null,
-										"depth": 0,
-										"parent": null,
-										"children": [
-											{
-												"complete": true,
-												"value": "\tCheck if there is more than one column",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											},
-											{
-												"complete": true,
-												"value": "\tSplit the string on the ';'",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											},
-											{
-												"complete": true,
-												"value": "\tStart adding letters to new array",
-												"assign": null,
-												"depth": 1,
-												"children": [
-													{
-														"complete": true,
-														"value": "\tif the letter contains a '-' then get and add all letters in between ",
-														"assign": null,
-														"depth": 2,
-														"children": []
-													}
-												]
-											}
-										],
-										"name": "global"
-									},
-									"isGroup": false,
-									"hasAnnotation": true,
-									"reviewedBy": null,
-									"assign": "Grant"
-								},
-								{
-									"name": "addEvaluation",
-									"description": "Adds the evaluation to the evaluations array",
-									"require": [],
-									"test": "",
-									"todos": {
-										"complete": false,
-										"value": null,
-										"assign": null,
-										"depth": 0,
-										"parent": null,
-										"children": [
-											{
-												"complete": true,
-												"value": "\tcheck that the variables are strings and arrays",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											},
-											{
-												"complete": true,
-												"value": "\tcreate evals by questions",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											},
-											{
-												"complete": true,
-												"value": "\tadd evaluations to evals ",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											},
-											{
-												"complete": true,
-												"value": "\terror handling",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											}
-										],
-										"name": "global"
-									},
-									"isGroup": false,
-									"hasAnnotation": true,
-									"reviewedBy": null,
-									"assign": "Grant"
-								},
-								{
-									"name": "clearEvaluation",
-									"description": "Resets the current evaluation",
-									"require": [],
-									"test": "",
-									"todos": {
-										"complete": false,
-										"value": null,
-										"assign": null,
-										"depth": 0,
-										"parent": null,
-										"children": [
-											{
-												"complete": true,
-												"value": "\tClear the evaluations",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											},
-											{
-												"complete": true,
-												"value": "\tChange evalAdded to false",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											},
-											{
-												"complete": true,
-												"value": "\tChange isFile to false ",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											}
-										],
-										"name": "global"
-									},
-									"isGroup": false,
-									"hasAnnotation": true,
-									"reviewedBy": null,
-									"assign": "Grant"
-								},
-								{
-									"name": "CreateEvaluationCSV",
-									"description": "Create a new evaluation and parses the evaluations previously gathered",
-									"require": [],
-									"test": "",
-									"todos": {
-										"complete": false,
-										"value": null,
-										"assign": null,
-										"depth": 0,
-										"parent": null,
-										"children": [
-											{
-												"complete": true,
-												"value": "\tMake sure their are evaluations to do",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											},
-											{
-												"complete": true,
-												"value": "\tCreate an Evaluations object",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											},
-											{
-												"complete": true,
-												"value": "\tBegin the parsing process",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											},
-											{
-												"complete": true,
-												"value": "\tReturn to the home page",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											}
-										],
-										"name": "global"
-									},
-									"isGroup": false,
-									"hasAnnotation": true,
-									"reviewedBy": null,
-									"assign": "Grant"
-								}
-							],
-							"name": "Leadership"
-						},
-						{
-							"children": [],
-							"type": null,
-							"comment": {
-								"name": null,
-								"description": null,
-								"require": [],
-								"test": "",
-								"todos": [],
-								"isGroup": true,
-								"hasAnnotation": true,
-								"reviewedBy": null
-							},
-							"comments": [
-								null,
-								{
-									"name": "semesterSetup",
-									"description": "Creates all semester files based on provided org file",
-									"require": [],
-									"test": "",
-									"todos": {
-										"complete": false,
-										"value": null,
-										"assign": null,
-										"depth": 0,
-										"parent": null,
-										"children": [
-											{
-												"complete": true,
-												"value": "\tCreate a new CSV object",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											},
-											{
-												"complete": true,
-												"value": "\tRead the file",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											},
-											{
-												"complete": true,
-												"value": "\tCreate a SemesterSetup object",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											},
-											{
-												"complete": true,
-												"value": "\tStart the semesterSetup ",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											}
-										],
-										"name": "global"
-									},
-									"isGroup": false,
-									"hasAnnotation": true,
-									"reviewedBy": null,
-									"assign": "Chase and Grant"
-								},
-								{
-									"name": "semesterUpdate",
-									"description": "Updates all semester files based on provided org file",
-									"require": [],
-									"test": "",
-									"todos": [],
-									"isGroup": false,
-									"hasAnnotation": true,
-									"reviewedBy": null,
-									"assign": "Chase and Grant"
-								}
-							],
-							"name": "Semester"
-						},
-						{
-							"children": [],
-							"type": null,
-							"comment": {
-								"name": null,
-								"description": null,
-								"require": [],
-								"test": "",
-								"todos": [],
-								"isGroup": true,
-								"hasAnnotation": true,
-								"reviewedBy": null
-							},
-							"comments": [
-								null,
-								{
-									"name": "chooseFile",
-									"description": "Select a file",
-									"require": [],
-									"test": "",
-									"todos": {
-										"complete": false,
-										"value": null,
-										"assign": null,
-										"depth": 0,
-										"parent": null,
-										"children": [
-											{
-												"complete": true,
-												"value": "\tCreate a file input in the html using jquery",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											},
-											{
-												"complete": true,
-												"value": "\tClick to add file",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											},
-											{
-												"complete": true,
-												"value": "\tisFile is true",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											},
-											{
-												"complete": true,
-												"value": "\tfile is now the selected file ",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											}
-										],
-										"name": "global"
-									},
-									"isGroup": false,
-									"hasAnnotation": true,
-									"reviewedBy": null,
-									"assign": "Chase and Grant"
-								}
-							],
-							"name": "Select"
-						},
-						{
-							"children": [],
-							"type": null,
-							"comment": {
-								"name": null,
-								"description": null,
-								"require": [],
-								"test": "",
-								"todos": [],
-								"isGroup": true,
-								"hasAnnotation": true,
-								"reviewedBy": null
-							},
-							"comments": [
-								null,
-								{
-									"name": "processSurvey",
-									"description": "Begin processing the survey",
-									"require": [],
-									"test": "",
-									"todos": {
-										"complete": false,
-										"value": null,
-										"assign": null,
-										"depth": 0,
-										"parent": null,
-										"children": [
-											{
-												"complete": true,
-												"value": "\tFind the survey settings from the config",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											},
-											{
-												"complete": true,
-												"value": "\tThis survey is now the selected survey",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											},
-											{
-												"complete": true,
-												"value": "\tError handling",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											},
-											{
-												"complete": true,
-												"value": "\tCreate a new CSV object",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											},
-											{
-												"complete": true,
-												"value": "\tRead the file",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											},
-											{
-												"complete": true,
-												"value": "\tStart the survey processing ",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											}
-										],
-										"name": "global"
-									},
-									"isGroup": false,
-									"hasAnnotation": true,
-									"reviewedBy": null,
-									"assign": "Chase"
-								}
-							],
-							"name": "Process"
-						},
-						{
-							"children": [],
-							"type": null,
-							"comment": {
-								"name": null,
-								"description": null,
-								"require": [],
-								"test": "",
-								"todos": [],
-								"isGroup": true,
-								"hasAnnotation": true,
-								"reviewedBy": null
-							},
-							"comments": [
-								null,
-								{
-									"name": "surveyModifications",
-									"description": "All survey modification go through here",
-									"require": [],
-									"test": "",
-									"todos": {
-										"complete": false,
-										"value": null,
-										"assign": null,
-										"depth": 0,
-										"parent": null,
-										"children": [
-											{
-												"complete": true,
-												"value": "\tGet the survey settings from the config",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											},
-											{
-												"complete": true,
-												"value": "\tThis survey is now the selected survey",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											},
-											{
-												"complete": true,
-												"value": "\tif register a survey",
-												"assign": null,
-												"depth": 1,
-												"children": [
-													{
-														"complete": true,
-														"value": "\tCreate a new CSv object",
-														"assign": null,
-														"depth": 2,
-														"children": []
-													},
-													{
-														"complete": true,
-														"value": "\tRead file",
-														"assign": null,
-														"depth": 2,
-														"children": []
-													},
-													{
-														"complete": true,
-														"value": "\tChange webpages",
-														"assign": null,
-														"depth": 2,
-														"children": []
-													},
-													{
-														"complete": true,
-														"value": "\tStart to modify a new survey",
-														"assign": null,
-														"depth": 2,
-														"children": []
-													}
-												]
-											},
-											{
-												"complete": true,
-												"value": "\tif delete a survey",
-												"assign": null,
-												"depth": 1,
-												"children": [
-													{
-														"complete": true,
-														"value": "\tRemove the survey from the config",
-														"assign": null,
-														"depth": 2,
-														"children": []
-													}
-												]
-											},
-											{
-												"complete": true,
-												"value": "\tif copy a survey",
-												"assign": null,
-												"depth": 1,
-												"children": [
-													{
-														"complete": true,
-														"value": "\tCopy the survey and increment its id ",
-														"assign": null,
-														"depth": 2,
-														"children": []
-													}
-												]
-											},
-											{
-												"complete": true,
-												"value": "\tif modify a survey",
-												"assign": null,
-												"depth": 1,
-												"children": [
-													{
-														"complete": true,
-														"value": "\tChange to modify a survey webpage  ",
-														"assign": null,
-														"depth": 2,
-														"children": []
-													}
-												]
-											},
-											{
-												"complete": true,
-												"value": "\tError handling",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											}
-										],
-										"name": "global"
-									},
-									"isGroup": false,
-									"hasAnnotation": true,
-									"reviewedBy": null,
-									"assign": "Chase and Grant"
-								},
-								{
-									"name": "modifySurvey",
-									"description": "Updates a surveys data comlumns",
-									"require": [],
-									"test": "",
-									"todos": {
-										"complete": false,
-										"value": null,
-										"assign": null,
-										"depth": 0,
-										"parent": null,
-										"children": [
-											{
-												"complete": true,
-												"value": "\tGet the survey to be modified",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											},
-											{
-												"complete": true,
-												"value": "\tSet the selectedSurvey",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											},
-											{
-												"complete": true,
-												"value": "\tSet the questions",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											}
-										],
-										"name": "global"
-									},
-									"isGroup": false,
-									"hasAnnotation": true,
-									"reviewedBy": null,
-									"assign": "Chase"
-								},
-								{
-									"name": "submitSurvey",
-									"description": "Submits a newly created survey and saves it to the config file",
-									"require": [],
-									"test": "",
-									"todos": {
-										"complete": false,
-										"value": null,
-										"assign": null,
-										"depth": 0,
-										"parent": null,
-										"children": [
-											{
-												"complete": true,
-												"value": "\tAssign the questions to the selected survey's questions",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											},
-											{
-												"complete": true,
-												"value": "\tSave the selected survey",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											},
-											{
-												"complete": true,
-												"value": "\tChange the view to the home page",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											}
-										],
-										"name": "global"
-									},
-									"isGroup": false,
-									"hasAnnotation": true,
-									"reviewedBy": null,
-									"assign": "Chase"
-								},
-								{
-									"name": "addBlankQuestion",
-									"description": "Add a question to a survey",
-									"require": [],
-									"test": "",
-									"todos": {
-										"complete": false,
-										"value": null,
-										"assign": null,
-										"depth": 0,
-										"parent": null,
-										"children": [
-											{
-												"complete": true,
-												"value": "\tShow the add question dialog",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											},
-											{
-												"complete": true,
-												"value": "\tCreate a new question with the id incremented",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											},
-											{
-												"complete": true,
-												"value": "\tAssign the new question to the selected question",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											}
-										],
-										"name": "global"
-									},
-									"isGroup": false,
-									"hasAnnotation": true,
-									"reviewedBy": null,
-									"assign": "Chase"
-								},
-								{
-									"name": "addQuestion",
-									"description": "Add aquestion to a survey",
-									"require": [],
-									"test": "",
-									"todos": {
-										"complete": false,
-										"value": null,
-										"assign": null,
-										"depth": 0,
-										"parent": null,
-										"children": [
-											{
-												"complete": true,
-												"value": "\tRemove question dialog ",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											},
-											{
-												"complete": true,
-												"value": "\tAssign the selected question to the selected survey",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											}
-										],
-										"name": "global"
-									},
-									"isGroup": false,
-									"hasAnnotation": true,
-									"reviewedBy": null,
-									"assign": "Chase"
-								},
-								{
-									"name": "editQuestion",
-									"description": "Edit the question",
-									"require": [],
-									"test": "",
-									"todos": {
-										"complete": false,
-										"value": null,
-										"assign": null,
-										"depth": 0,
-										"parent": null,
-										"children": [
-											{
-												"complete": true,
-												"value": "\tAssign the question as the selected question",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											},
-											{
-												"complete": true,
-												"value": "\tShow the edit question dialog",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											}
-										],
-										"name": "global"
-									},
-									"isGroup": false,
-									"hasAnnotation": true,
-									"reviewedBy": null,
-									"assign": "Chase"
-								},
-								{
-									"name": "columnNumberToLetter",
-									"description": "Convert a number to a letter(excel column)",
-									"require": [],
-									"test": "",
-									"todos": {
-										"complete": false,
-										"value": null,
-										"assign": null,
-										"depth": 0,
-										"parent": null,
-										"children": [
-											{
-												"complete": true,
-												"value": "\tCall the column number to letter function in config",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											},
-											{
-												"complete": true,
-												"value": "\treturn value",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											}
-										],
-										"name": "global"
-									},
-									"isGroup": false,
-									"hasAnnotation": true,
-									"reviewedBy": null,
-									"assign": "Chase"
-								},
-								{
-									"name": "columnLetterToNumber",
-									"description": "Convert a letter(excel column) to a number",
-									"require": [],
-									"test": "",
-									"todos": {
-										"complete": false,
-										"value": null,
-										"assign": null,
-										"depth": 0,
-										"parent": null,
-										"children": [
-											{
-												"complete": true,
-												"value": "\tCall the column letter to number function in config",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											},
-											{
-												"complete": true,
-												"value": "\treturn value",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											}
-										],
-										"name": "global"
-									},
-									"isGroup": false,
-									"hasAnnotation": true,
-									"reviewedBy": null,
-									"assign": "Chase"
-								},
-								{
-									"name": "removeQuestion",
-									"description": "Remove a question",
-									"require": [],
-									"test": "",
-									"todos": {
-										"complete": false,
-										"value": null,
-										"assign": null,
-										"depth": 0,
-										"parent": null,
-										"children": [
-											{
-												"complete": true,
-												"value": "\tRemove the question from questions",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											}
-										],
-										"name": "global"
-									},
-									"isGroup": false,
-									"hasAnnotation": true,
-									"reviewedBy": null,
-									"assign": "Chase"
-								},
-								{
-									"name": "closeDialog",
-									"description": "Close the dialog",
-									"require": [],
-									"test": "",
-									"todos": {
-										"complete": false,
-										"value": null,
-										"assign": null,
-										"depth": 0,
-										"parent": null,
-										"children": [
-											{
-												"complete": true,
-												"value": "\tChange showDialog to false ",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											}
-										],
-										"name": "global"
-									},
-									"isGroup": false,
-									"hasAnnotation": true,
-									"reviewedBy": null,
-									"assign": "Chase"
-								},
-								{
-									"name": "upper",
-									"description": "Column Letter will always be upper case",
-									"require": [],
-									"test": "",
-									"todos": {
-										"complete": false,
-										"value": null,
-										"assign": null,
-										"depth": 0,
-										"parent": null,
-										"children": [
-											{
-												"complete": true,
-												"value": "\tConvert the string to uppercase",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											},
-											{
-												"complete": true,
-												"value": "\tReturn string",
-												"assign": null,
-												"depth": 1,
-												"children": []
-											}
-										],
-										"name": "global"
-									},
-									"isGroup": false,
-									"hasAnnotation": true,
-									"reviewedBy": null,
-									"assign": "Chase"
-								}
-							],
-							"name": "Survey"
-						}
-					],
+					"children": [],
 					"type": null,
 					"comment": {
 						"name": null,
@@ -2379,74 +1380,798 @@
 					"comments": [
 						null,
 						{
-							"name": null,
-							"description": null,
+							"name": "hasPageBeenEdited",
+							"description": "checks to see if a page has been edited",
 							"require": [],
 							"test": "",
-							"todos": [],
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "\tDetermine if the view may need to check if uses really wants to leave",
+										"assign": null,
+										"depth": 1,
+										"children": [
+											{
+												"complete": true,
+												"value": "\tCheck if its respective data has been set",
+												"assign": null,
+												"depth": 2,
+												"children": []
+											}
+										]
+									}
+								],
+								"name": "global"
+							},
 							"isGroup": false,
 							"hasAnnotation": true,
-							"reviewedBy": null
+							"reviewedBy": null,
+							"assign": "Chase"
 						},
 						{
-							"name": null,
-							"description": null,
+							"name": "menuChange",
+							"description": "changes the webpage between the different views",
 							"require": [],
 							"test": "",
-							"todos": [],
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "\tcomplete",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
 							"isGroup": false,
 							"hasAnnotation": true,
-							"reviewedBy": null
+							"reviewedBy": null,
+							"assign": "Chase"
 						},
 						{
-							"name": null,
-							"description": null,
+							"name": "evaluationSelected",
+							"description": "fills out the evaluation form with a selected evaluation",
 							"require": [],
 							"test": "",
-							"todos": [],
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "\tcomplete",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
 							"isGroup": false,
 							"hasAnnotation": true,
-							"reviewedBy": null
+							"reviewedBy": null,
+							"assign": "Chase"
 						},
 						{
-							"name": null,
-							"description": null,
+							"name": "surveySelected",
+							"description": "Sets the selected survey",
 							"require": [],
 							"test": "",
-							"todos": [],
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "\tcomplete",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
 							"isGroup": false,
 							"hasAnnotation": true,
-							"reviewedBy": null
+							"reviewedBy": null,
+							"assign": "Chase"
 						},
 						{
-							"name": null,
-							"description": null,
+							"name": "getSelectedSurvey",
+							"description": "Get a survey from the list of surveys",
 							"require": [],
 							"test": "",
-							"todos": [],
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "\tcomplete",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
 							"isGroup": false,
 							"hasAnnotation": true,
-							"reviewedBy": null
+							"reviewedBy": null,
+							"assign": "Chase"
 						},
 						{
-							"name": null,
-							"description": null,
+							"name": "reload",
+							"description": "sets the reload time of the window",
 							"require": [],
 							"test": "",
-							"todos": [],
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "\tcomplete",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
 							"isGroup": false,
 							"hasAnnotation": true,
-							"reviewedBy": null
+							"reviewedBy": null,
+							"assign": "Chase"
 						},
 						{
-							"name": null,
-							"description": null,
+							"name": "removeSurvey",
+							"description": "remove a survey from the config file",
 							"require": [],
 							"test": "",
-							"todos": [],
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "\tcomplete",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
 							"isGroup": false,
 							"hasAnnotation": true,
-							"reviewedBy": null
+							"reviewedBy": null,
+							"assign": "Chase"
+						},
+						{
+							"name": "copySurvey",
+							"description": "copy a survey",
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "\tcomplete",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null,
+							"assign": "Chase"
+						},
+						{
+							"name": "chooseFile",
+							"description": "get a file from the client",
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "\tcomplete",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null,
+							"assign": "Chase"
+						},
+						{
+							"name": "startProcess",
+							"description": "Begin to process surveys",
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "\tcomplete",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null,
+							"assign": "Chase"
+						},
+						{
+							"name": "changePermissions",
+							"description": "Begin to change permissions",
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "\tcomplete",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null,
+							"assign": "Chase"
+						},
+						{
+							"name": "startSemesterSetup",
+							"description": "begin the semester setup process",
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "\tcomplete",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null,
+							"assign": "Chase"
+						},
+						{
+							"name": "startQualtricsPrep",
+							"description": "Prepares csv that can be used for organizational lookups",
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "\tcomplete",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null,
+							"assign": "Chase"
+						},
+						{
+							"name": "removeQuestion",
+							"description": "remove a question from the selected survey",
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "\tcomplete",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null,
+							"assign": "Chase"
+						},
+						{
+							"name": "Replaces",
+							"description": "replace text for answers to questions",
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "\tcomplete",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null,
+							"assign": "Chase"
+						},
+						{
+							"name": "ReplacesCreate",
+							"description": "adds the items that will be replaces 'what' with 'with'",
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "\tcomplete",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null,
+							"assign": "Chase"
+						},
+						{
+							"name": "addQuestion",
+							"description": "Add a question to the selected survey",
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "\tcomplete",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null,
+							"assign": "Chase"
+						},
+						{
+							"name": "removeReplaces",
+							"description": "remove a replace set",
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "\tcomplete",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null,
+							"assign": "Chase"
+						},
+						{
+							"name": "addReplace",
+							"description": "Add a replace set",
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "\tcomplete",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null,
+							"assign": "Chase"
+						},
+						{
+							"name": "editQuestion",
+							"description": "Edit a quesiton from the selected survey",
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "\tcomplete",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null,
+							"assign": "Chase"
+						},
+						{
+							"name": "submitChanges",
+							"description": "Saves the selected survey",
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "\tcomplete ",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null,
+							"assign": "Chase"
+						},
+						{
+							"name": "arrayOfColumns",
+							"description": "Gets the columns in forms A;B;C;D or A-D or A-D;E",
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "\tCheck if there is more than one column",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									},
+									{
+										"complete": true,
+										"value": "\tSplit the string on the ';'",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									},
+									{
+										"complete": true,
+										"value": "\tStart adding letters to new array",
+										"assign": null,
+										"depth": 1,
+										"children": [
+											{
+												"complete": true,
+												"value": "\tif the letter contains a '-' then get and add all letters in between ",
+												"assign": null,
+												"depth": 2,
+												"children": []
+											}
+										]
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null,
+							"assign": "Grant"
+						},
+						{
+							"name": "startEvaluations",
+							"description": "Begin the process of parsing evaluations",
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "\tValidate the incoming information",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									},
+									{
+										"complete": true,
+										"value": "\tCreate a new evaluation",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									},
+									{
+										"complete": true,
+										"value": "\tProcess the evaluation",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null,
+							"assign": "Grant"
+						},
+						{
+							"name": "addEvaluation",
+							"description": "Add an evaluation to the current evaluation",
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "\tPush a new question object onto the current evaluation",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null,
+							"assign": "Grant"
+						},
+						{
+							"name": "removeEvaluation",
+							"description": "Remove an evaluation from the config file",
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "\tGet the id of the evaluation to be removed",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									},
+									{
+										"complete": true,
+										"value": "\tRemove the evaluation from the config",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null,
+							"assign": "Grant"
+						},
+						{
+							"name": "removeEvalQuestion",
+							"description": "Remove a question from the current evaluation",
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "\tRemove question at the index passed in",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null,
+							"assign": "Grant"
+						},
+						{
+							"name": "saveEvaluation",
+							"description": "Save the current evaluation to the config",
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "\tValidate the incoming information",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									},
+									{
+										"complete": true,
+										"value": "\tCreate a new evaluation",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									},
+									{
+										"complete": true,
+										"value": "\tSave the evaluation",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null,
+							"assign": "Grant"
 						},
 						{
 							"name": "toInt",
@@ -2542,7 +2267,7 @@
 								"children": [
 									{
 										"complete": true,
-										"value": "Filter by week ",
+										"value": "\tFilter by week ",
 										"assign": "Grant",
 										"depth": 1,
 										"children": []
@@ -2561,18 +2286,7 @@
 			"parent": null,
 			"type": null,
 			"comment": null,
-			"comments": [
-				{
-					"name": null,
-					"description": null,
-					"require": [],
-					"test": "",
-					"todos": [],
-					"isGroup": false,
-					"hasAnnotation": true,
-					"reviewedBy": null
-				}
-			]
+			"comments": []
 		}
 	},
 	{
@@ -2616,6 +2330,33 @@
 									{
 										"complete": true,
 										"value": "set the csv file location",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null,
+							"assign": "Grant"
+						},
+						{
+							"name": "save",
+							"description": "Save an evaluation",
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "complete",
 										"assign": null,
 										"depth": 1,
 										"children": []
@@ -2753,6 +2494,20 @@
 													{
 														"complete": true,
 														"value": "logic for percentage",
+														"assign": null,
+														"depth": 3,
+														"children": []
+													},
+													{
+														"complete": true,
+														"value": "logic for combined percentage",
+														"assign": null,
+														"depth": 3,
+														"children": []
+													},
+													{
+														"complete": true,
+														"value": "logic for combined value",
 														"assign": null,
 														"depth": 3,
 														"children": []
@@ -2906,6 +2661,67 @@
 									{
 										"complete": true,
 										"value": "error handling",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null,
+							"assign": "Grant"
+						},
+						{
+							"name": "isByGreaterThanFor",
+							"description": "Checks if the role doing the evaluation is at a higher role than the one receiving the evaluation",
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "Get each role by value",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									},
+									{
+										"complete": true,
+										"value": "Compare the roles to see if by role is greater than for role",
+										"assign": null,
+										"depth": 1,
+										"children": []
+									}
+								],
+								"name": "global"
+							},
+							"isGroup": false,
+							"hasAnnotation": true,
+							"reviewedBy": null,
+							"assign": "Grant"
+						},
+						{
+							"name": "roleAsValue",
+							"description": "",
+							"require": [],
+							"test": "",
+							"todos": {
+								"complete": false,
+								"value": null,
+								"assign": null,
+								"depth": 0,
+								"parent": null,
+								"children": [
+									{
+										"complete": true,
+										"value": "switch statement for each role and return a value based on the role",
 										"assign": null,
 										"depth": 1,
 										"children": []
@@ -3799,194 +3615,6 @@
 			"type": null,
 			"comment": null,
 			"comments": [
-				{
-					"name": null,
-					"description": null,
-					"require": [],
-					"test": "",
-					"todos": [],
-					"isGroup": false,
-					"hasAnnotation": true,
-					"reviewedBy": null
-				}
-			]
-		}
-	},
-	{
-		"path": "projects/ims/src/admin/permissions.js",
-		"group": {
-			"children": [
-				{
-					"children": [],
-					"type": null,
-					"comment": {
-						"name": null,
-						"description": null,
-						"require": [],
-						"test": "",
-						"todos": [],
-						"isGroup": true,
-						"hasAnnotation": true,
-						"reviewedBy": null
-					},
-					"comments": [
-						null,
-						{
-							"name": "init",
-							"description": "Initalize and create all the necessary items to setup for permission",
-							"require": [],
-							"test": "",
-							"todos": [],
-							"isGroup": false,
-							"hasAnnotation": true,
-							"reviewedBy": null,
-							"assign": "Chase"
-						},
-						{
-							"name": "getPermissionsXml",
-							"description": "Get the permissions xml file. If it was already pulled, it will grab the",
-							"require": [],
-							"test": "",
-							"todos": [],
-							"isGroup": false,
-							"hasAnnotation": true,
-							"reviewedBy": null,
-							"assign": "Chase"
-						},
-						{
-							"name": "check",
-							"description": "Check if there are any changes to do",
-							"require": [],
-							"test": "",
-							"todos": [],
-							"isGroup": false,
-							"hasAnnotation": true,
-							"reviewedBy": null,
-							"assign": "Chase"
-						},
-						{
-							"name": "update",
-							"description": "Update the permissions on various files",
-							"require": [],
-							"test": "",
-							"todos": [],
-							"isGroup": false,
-							"hasAnnotation": true,
-							"reviewedBy": null,
-							"assign": "Chase"
-						},
-						{
-							"name": "checkForCompletion",
-							"description": "",
-							"require": [],
-							"test": "",
-							"todos": [],
-							"isGroup": false,
-							"hasAnnotation": true,
-							"reviewedBy": null,
-							"assign": "Chase"
-						}
-					],
-					"name": "Permissions"
-				},
-				{
-					"children": [],
-					"type": null,
-					"comment": {
-						"name": null,
-						"description": null,
-						"require": [],
-						"test": "",
-						"todos": [],
-						"isGroup": true,
-						"hasAnnotation": true,
-						"reviewedBy": null
-					},
-					"comments": [
-						null,
-						{
-							"name": "permissionPerson",
-							"description": "create a new permissions file person",
-							"require": [],
-							"test": "",
-							"todos": [],
-							"isGroup": false,
-							"hasAnnotation": true,
-							"reviewedBy": null
-						},
-						{
-							"name": "check",
-							"description": "Check the permsisions based on the current master file",
-							"require": [],
-							"test": "",
-							"todos": [],
-							"isGroup": false,
-							"hasAnnotation": true,
-							"reviewedBy": null,
-							"assign": "Chase"
-						},
-						{
-							"name": "change",
-							"description": "Change the permissions from the objects collected during check",
-							"require": [],
-							"test": "",
-							"todos": [],
-							"isGroup": false,
-							"hasAnnotation": true,
-							"reviewedBy": null,
-							"assign": "Chase"
-						},
-						{
-							"name": "removeUsers",
-							"description": "Remove the users from the files, SharePoint API calls are made here",
-							"require": [],
-							"test": "",
-							"todos": [],
-							"isGroup": false,
-							"hasAnnotation": true,
-							"reviewedBy": null,
-							"assign": "Chase"
-						},
-						{
-							"name": "addUsers",
-							"description": "Add users to the files, SharePoint calls are used here",
-							"require": [],
-							"test": "",
-							"todos": [],
-							"isGroup": false,
-							"hasAnnotation": true,
-							"reviewedBy": null,
-							"assign": "Chase"
-						},
-						{
-							"name": "api",
-							"description": "The API call for the permissions api",
-							"require": [],
-							"test": "",
-							"todos": [],
-							"isGroup": false,
-							"hasAnnotation": true,
-							"reviewedBy": null,
-							"assign": "Chase"
-						}
-					],
-					"name": "PermissionsPerson"
-				}
-			],
-			"parent": null,
-			"type": null,
-			"comment": null,
-			"comments": [
-				{
-					"name": null,
-					"description": null,
-					"require": [],
-					"test": "",
-					"todos": [],
-					"isGroup": false,
-					"hasAnnotation": true,
-					"reviewedBy": null
-				},
 				{
 					"name": null,
 					"description": null,
@@ -6014,6 +5642,236 @@
 		}
 	},
 	{
+		"path": "projects/ims/src/admin/tools.js",
+		"group": {
+			"children": [],
+			"parent": null,
+			"type": null,
+			"comment": null,
+			"comments": [
+				{
+					"name": "Tool",
+					"description": "This tool is meant to parse the OSM semester setup report",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null,
+					"assign": "Grant"
+				},
+				{
+					"name": "getColumn",
+					"description": "Returns the first column associated with the role",
+					"require": [],
+					"test": "",
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [
+							{
+								"complete": true,
+								"value": "Compare the role",
+								"assign": null,
+								"depth": 1,
+								"children": [
+									{
+										"complete": true,
+										"value": "Return the proper role column location",
+										"assign": null,
+										"depth": 2,
+										"children": []
+									}
+								]
+							}
+						],
+						"name": "global"
+					},
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null,
+					"assign": "Grant"
+				},
+				{
+					"name": "contains",
+					"description": "Checks if the left/right combination is already present",
+					"require": [],
+					"test": "",
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [
+							{
+								"complete": true,
+								"value": "Go through each line in the csv",
+								"assign": null,
+								"depth": 1,
+								"children": [
+									{
+										"complete": true,
+										"value": "Check if course is a factor",
+										"assign": null,
+										"depth": 2,
+										"children": [
+											{
+												"complete": true,
+												"value": "Yes: verify that the course and person are unique",
+												"assign": null,
+												"depth": 3,
+												"children": [
+													{
+														"complete": true,
+														"value": "Return true if true",
+														"assign": null,
+														"depth": 4,
+														"children": []
+													}
+												]
+											},
+											{
+												"complete": true,
+												"value": "No: Check that the person is unique",
+												"assign": null,
+												"depth": 3,
+												"children": [
+													{
+														"complete": true,
+														"value": "Return true if true",
+														"assign": null,
+														"depth": 4,
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"complete": true,
+								"value": "If the personif not there return false",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							}
+						],
+						"name": "global"
+					},
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null,
+					"assign": "Grant"
+				},
+				{
+					"name": "getRow",
+					"description": "gets a row from the csv using the left and right roles as parameters",
+					"require": [],
+					"test": "",
+					"todos": {
+						"complete": false,
+						"value": null,
+						"assign": null,
+						"depth": 0,
+						"parent": null,
+						"children": [
+							{
+								"complete": true,
+								"value": "Find the locations of the left and right side",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							},
+							{
+								"complete": true,
+								"value": "Is the left or right an Instructor?",
+								"assign": null,
+								"depth": 1,
+								"children": [
+									{
+										"complete": true,
+										"value": "Yes",
+										"assign": null,
+										"depth": 2,
+										"children": [
+											{
+												"complete": true,
+												"value": "Get the email, first name, and last name from the csv",
+												"assign": null,
+												"depth": 3,
+												"children": []
+											},
+											{
+												"complete": true,
+												"value": "Get course if nescessary",
+												"assign": null,
+												"depth": 3,
+												"children": []
+											},
+											{
+												"complete": true,
+												"value": "Create a new string from the data",
+												"assign": null,
+												"depth": 3,
+												"children": []
+											}
+										]
+									},
+									{
+										"complete": true,
+										"value": "No",
+										"assign": null,
+										"depth": 2,
+										"children": [
+											{
+												"complete": true,
+												"value": "Get the email",
+												"assign": null,
+												"depth": 3,
+												"children": []
+											},
+											{
+												"complete": true,
+												"value": "Parse the first and last name from the csv",
+												"assign": null,
+												"depth": 3,
+												"children": []
+											},
+											{
+												"complete": true,
+												"value": "Create a new string from the data",
+												"assign": null,
+												"depth": 3,
+												"children": []
+											}
+										]
+									}
+								]
+							},
+							{
+								"complete": true,
+								"value": "Repeat above steps for both left and right",
+								"assign": null,
+								"depth": 1,
+								"children": []
+							}
+						],
+						"name": "global"
+					},
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null,
+					"assign": "Grant"
+				}
+			]
+		}
+	},
+	{
 		"path": "projects/ims/src/course.js",
 		"group": {
 			"children": [],
@@ -6095,6 +5953,16 @@
 				{
 					"name": "back",
 					"description": "Go back to the previous webpage",
+					"require": [],
+					"test": "",
+					"todos": [],
+					"isGroup": false,
+					"hasAnnotation": true,
+					"reviewedBy": null
+				},
+				{
+					"name": "selectedSuggestion",
+					"description": "Go to the person selected",
 					"require": [],
 					"test": "",
 					"todos": [],
@@ -7392,26 +7260,6 @@
 				},
 				{
 					"name": "ims.sharepoint.postFile",
-					"description": "",
-					"require": [],
-					"test": "",
-					"todos": [],
-					"isGroup": false,
-					"hasAnnotation": true,
-					"reviewedBy": null
-				},
-				{
-					"name": "ims.sharepoint.postFileTestTest",
-					"description": "",
-					"require": [],
-					"test": "",
-					"todos": [],
-					"isGroup": false,
-					"hasAnnotation": true,
-					"reviewedBy": null
-				},
-				{
-					"name": "ims.sharepoint.postFileTest",
 					"description": "",
 					"require": [],
 					"test": "",
